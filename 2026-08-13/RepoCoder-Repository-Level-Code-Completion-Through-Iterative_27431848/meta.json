@@ -4,5 +4,28 @@
  "title": "RepoCoder-Repository-Level-Code-Completion-Through-Iterative",
  "token": "sk-dY4OBV5wM...",
  "created_at": "2026-08-13 14:56:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c56fc226-9184-4810-b91b-ff66d8eaced1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c56fc226-9184-4810-b91b-ff66d8eaced1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:08:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "代码补全",
+    "检索增强生成",
+    "仓库级代码理解",
+    "迭代检索",
+    "代码语言模型"
+   ],
+   "field": "代码生成与理解",
+   "innovations": [
+    "提出迭代检索-生成框架RepoCoder，利用模型预测逐步优化检索查询",
+    "构建首个含三种粒度（行级/API级/函数体级）的仓库级代码补全基准RepoEval",
+    "证明小模型配合迭代检索可匹敌大模型单文件补全效果"
+   ],
+   "benchmarks": [
+    "RepoEval"
+   ]
+  }
+ }
 }

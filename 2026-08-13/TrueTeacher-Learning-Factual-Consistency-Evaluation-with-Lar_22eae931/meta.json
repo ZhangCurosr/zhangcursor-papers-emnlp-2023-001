@@ -4,5 +4,31 @@
  "title": "TrueTeacher-Learning-Factual-Consistency-Evaluation-with-Lar",
  "token": "sk-Hms67LeAf...",
  "created_at": "2026-08-13 14:56:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/78d3b8c2-54a1-4198-8859-e05b4b8e1e52.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/78d3b8c2-54a1-4198-8859-e05b4b8e1e52.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:09:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "factual consistency evaluation",
+    "synthetic data generation",
+    "large language models",
+    "knowledge distillation",
+    "multilingual summarization"
+   ],
+   "field": "自然语言生成评估",
+   "innovations": [
+    "提出 TrueTeacher 方法：利用多容量摘要模型生成摘要并由 LLM 标注，生成高质量合成数据",
+    "系统公平比较五种现有合成数据生成方法，揭示域偏移下现有方法的失效问题",
+    "实现 T5-11B 学生模型超越 540B LLM 教师的事实一致性评估 SOTA，并扩展到多语言场景"
+   ],
+   "benchmarks": [
+    "TRUE benchmark",
+    "mFACE",
+    "CNN/DailyMail",
+    "XSum"
+   ]
+  }
+ }
 }

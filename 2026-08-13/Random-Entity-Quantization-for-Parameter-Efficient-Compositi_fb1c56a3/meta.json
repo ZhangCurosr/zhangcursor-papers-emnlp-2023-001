@@ -4,5 +4,30 @@
  "title": "Random-Entity-Quantization-for-Parameter-Efficient-Compositi",
  "token": "sk-JiEKTe0tT...",
  "created_at": "2026-08-13 14:56:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dcde6812-635a-4245-a320-a106ce61e8d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dcde6812-635a-4245-a320-a106ce61e8d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:08:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱表示学习",
+    "参数高效",
+    "实体量化",
+    "随机量化",
+    "NodePiece",
+    "EARL"
+   ],
+   "field": "知识图谱表示学习",
+   "innovations": [
+    "实证发现简单随机实体量化策略可达与传统复杂策略相当或更优的性能",
+    "提出基于熵和Jaccard距离的实体区分度度量，揭示随机量化有效的内在原因"
+   ],
+   "benchmarks": [
+    "FB15k-237",
+    "WN18RR",
+    "CoDEx-L"
+   ]
+  }
+ }
 }

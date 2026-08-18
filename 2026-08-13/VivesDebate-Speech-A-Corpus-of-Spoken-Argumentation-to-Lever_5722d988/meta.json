@@ -4,5 +4,31 @@
  "title": "VivesDebate-Speech-A-Corpus-of-Spoken-Argumentation-to-Lever",
  "token": "sk-RdV3tP4AZ...",
  "created_at": "2026-08-13 14:56:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6aceea26-ff48-40c5-a007-cad2f985cf08.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6aceea26-ff48-40c5-a007-cad2f985cf08.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:09:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "argument mining",
+    "ADU segmentation",
+    "audio features",
+    "VivesDebate-Speech",
+    "cascaded model",
+    "spoken argumentation"
+   ],
+   "field": "论据挖掘与多模态NLP",
+   "innovations": [
+    "构建最大公开语音论据挖掘语料库VivesDebate-Speech（12+小时）",
+    "首次系统证明音频分割可稳定提升ADU识别Macro-F1",
+    "提出可灵活组合音频/文本特征的级联论点挖掘框架"
+   ],
+   "benchmarks": [
+    "VivesDebate-Speech",
+    "Macro-F1",
+    "SHAS segmentation"
+   ]
+  }
+ }
 }

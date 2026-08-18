@@ -4,5 +4,28 @@
  "title": "Reading-Books-is-Great-But-Not-if-You-Are-Driving-Visually-G",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d4dcba0-586f-4a66-b7cf-d19f93486626.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d4dcba0-586f-4a66-b7cf-d19f93486626.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:08:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visually grounded reasoning",
+    "commonsense norms",
+    "defeasible reasoning",
+    "multimodal benchmark",
+    "moral judgment",
+    "knowledge distillation",
+    "human-AI collaboration"
+   ],
+   "field": "多模态社会常识推理",
+   "innovations": [
+    "提出 NORMLENS 多模态基准，首次系统性评估视觉接地下可废止常识规范推理；提出基于大语言模型蒸馏的低成本对齐方法，无需额外人工标注即可显著提升模型与人类判断的一致性；按人类共识度分层评估（HA/MA），更稳健地衡量主观性任务的模型对齐程度"
+   ],
+   "benchmarks": [
+    "NORMLENS"
+   ]
+  }
+ }
 }

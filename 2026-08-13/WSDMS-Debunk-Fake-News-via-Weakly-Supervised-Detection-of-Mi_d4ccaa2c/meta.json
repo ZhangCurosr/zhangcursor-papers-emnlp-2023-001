@@ -4,5 +4,31 @@
  "title": "WSDMS-Debunk-Fake-News-via-Weakly-Supervised-Detection-of-Mi",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 14:56:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c94f651a-cb41-4206-8d8c-f35c88ca34f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c94f651a-cb41-4206-8d8c-f35c88ca34f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 19:09:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "fake news detection",
+    "weak supervision",
+    "multiple instance learning",
+    "sentence-level detection",
+    "social context",
+    "misinformation debunking"
+   ],
+   "field": "虚假信息检测",
+   "innovations": [
+    "提出基于MIL的弱监督句子级虚假信息检测新任务与模型WSDMS",
+    "设计显式句子-对话树链接机制与加权集体注意力以提升检测精度",
+    "通过一致性损失利用文章级标签实现句子级弱监督学习"
+   ],
+   "benchmarks": [
+    "PolitiFact",
+    "GossipCop",
+    "BuzzNews"
+   ]
+  }
+ }
 }
