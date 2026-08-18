@@ -4,5 +4,32 @@
  "title": "Better-Quality-Pretraining-Data-and-T5-Models-for-African-La",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0696ae0-20c1-4977-9532-8763d72f9390.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f0696ae0-20c1-4977-9532-8763d72f9390.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:07:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "非洲语言",
+    "预训练数据质量",
+    "多语言语言模型",
+    "T5",
+    "跨语言问答",
+    "低资源 NLP"
+   ],
+   "field": "低资源多语言自然语言处理",
+   "innovations": [
+    "系统性审计 mC4 文档源 URL 并结合定向补充爬虫构建高质量多语言预训练语料",
+    "三层过滤（语料级/文档级/段落级）结合停用词与毒性检测去除低质量内容",
+    "证明数据质量提升可显著改善非洲语言模型的跨语言 QA、翻译、分类等下游性能"
+   ],
+   "benchmarks": [
+    "AfriQA",
+    "MAFAND-MT",
+    "XL-Sum",
+    "MasakhaNews"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Building-Persona-Consistent-Dialogue-Agents-with-Offline-Rei",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c642edf-1513-442e-ab0f-589ffcd536d6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/3c642edf-1513-442e-ab0f-589ffcd536d6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:07:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Persona Consistency",
+    "Offline Reinforcement Learning",
+    "Importance Sampling",
+    "Dialogue Generation",
+    "VaRMI",
+    "BlenderBot3"
+   ],
+   "field": "开放域对话系统",
+   "innovations": [
+    "提出离线RL框架实现人格一致性对话生成",
+    "设计VaRMI重要性采样降低策略梯度方差",
+    "构建PersonaChat-DNLI映射数据集提供人工奖励信号"
+   ],
+   "benchmarks": [
+    "DNLI Evaluation Dataset",
+    "PersonaChat Test Set"
+   ]
+  }
+ }
 }

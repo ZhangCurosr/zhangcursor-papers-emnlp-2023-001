@@ -4,5 +4,36 @@
  "title": "Coarse-to-Fine-Contrastive-Learning-in-Image-Text-Graph-Spac",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:12:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c124ae21-dc70-43af-b9b1-f224d88e120a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c124ae21-dc70-43af-b9b1-f224d88e120a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:09:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language Models",
+    "Compositionality",
+    "Contrastive Learning",
+    "Scene Graph",
+    "Hard Negative Mining",
+    "Coarse-to-Fine Learning",
+    "CLIP"
+   ],
+   "field": "视觉语言组合推理",
+   "innovations": [
+    "场景图引导的文本分解与粗到细多粒度对比学习目标",
+    "基于图变换（节点/边替换、子图拼接）的属性-关系硬负样本挖掘",
+    "引入Tree-Score分析语言编码器的层次化理解能力"
+   ],
+   "benchmarks": [
+    "ARO",
+    "CREPE-Systematicity",
+    "SVO-Probes",
+    "VL-Checklist",
+    "ELEVATER",
+    "ImageNet",
+    "COCO/Flickr30K Retrieval"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Compressing-and-Debiasing-Vision-Language-Pre-Trained-Models",
  "token": "sk-Yw2JG3IRJ...",
  "created_at": "2026-08-13 14:54:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/30d43e92-d8f7-428a-b9a5-6f22034b9acf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/30d43e92-d8f7-428a-b9a5-6f22034b9acf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:10:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉问答",
+    "去偏",
+    "模型压缩",
+    "VLP",
+    "OOD泛化",
+    "稀疏子网",
+    "lxmert"
+   ],
+   "field": "视觉-语言预训练模型压缩与鲁棒性",
+   "innovations": [
+    "首次联合研究VLP压缩与去偏，证明稀疏子网可同步提升效率与OOD鲁棒性",
+    "提出两阶段训练压缩流水线，发现不同去偏方法在各阶段应差异化使用",
+    "提出模态特定稀疏度分配策略，语言/跨模态模块高压缩、视觉模块低压缩"
+   ],
+   "benchmarks": [
+    "VQA-CP v2",
+    "VQA-VS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Clinical-Contradiction-Detection",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 07:11:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42cf627b-9135-43f3-8f4a-111f31be9dc1.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42cf627b-9135-43f3-8f4a-111f31be9dc1.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:09:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "clinical contradiction detection",
+    "distant supervision",
+    "SNOMED CT",
+    " biomedical NLP",
+    " weak supervision",
+    " ontology",
+    " PubMed"
+   ],
+   "field": "生物医学自然语言处理",
+   "innovations": [
+    "首次将远程监督应用于临床领域矛盾检测，利用SNOMED本体结构自动生成大规模自然语句矛盾数据集",
+    "提出属性+词汇双层融合标签策略，在149对人工标注上达到79%准确率和kappa=0.853",
+    "在9种SOTA模型和多个医学数据集上验证，小模型<30M参数受益最大，最强提升BioELECTRA达+0.075"
+   ],
+   "benchmarks": [
+    "Cardio",
+    "Hard-Cardio",
+    "MedNLI-General",
+    "MedNLI-GYN",
+    "MedNLI-ENDO",
+    "MedNLI-OB",
+    "MedNLI-Surgery"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "DEPN-Detecting-and-Editing-Privacy-Neurons-in-Pretrained-Lan",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e9b387ca-0df3-434b-a933-7b11cb100eab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e9b387ca-0df3-434b-a933-7b11cb100eab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:11:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "隐私保护",
+    "模型编辑",
+    "预训练语言模型",
+    "神经元定位",
+    "数据遗忘",
+    "后处理安全"
+   ],
+   "field": "大模型安全与隐私",
+   "innovations": [
+    "提出基于梯度积分的多token隐私神经元检测器",
+    "设计激活置零的后处理隐私遗忘框架DEPN",
+    "揭示隐私神经元随训练深度向FFN高层聚集的演化规律"
+   ],
+   "benchmarks": [
+    "Enron",
+    "Exposure",
+    "MRR",
+    "Valid-PPL"
+   ]
+  }
+ }
 }

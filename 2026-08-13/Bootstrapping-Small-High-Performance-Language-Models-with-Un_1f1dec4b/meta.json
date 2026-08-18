@@ -4,5 +4,32 @@
  "title": "Bootstrapping-Small-High-Performance-Language-Models-with-Un",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:10:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9b003851-3623-4fbe-8e5e-297a26091b5d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9b003851-3623-4fbe-8e5e-297a26091b5d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:07:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "小语言模型",
+    "预训练策略",
+    "未掩码移除策略",
+    "语义角色标注",
+    "持续预训练",
+    "BabyBERTa",
+    "掩码语言模型"
+   ],
+   "field": "高效语言模型与预训练策略",
+   "innovations": [
+    "系统揭示预训练三要素（掩码策略/词表/语料）对小模型下游任务的影响，发现URP+小词表组合最优",
+    "证明未掩码移除策略在少量数据下优于标准80-10-10策略且优势随持续预训练 persist",
+    "展示小模型持续预训练1B词可逼近RoBERTa-10M性能，提供低成本高效模型构建路径"
+   ],
+   "benchmarks": [
+    "CoNLL-12",
+    "QA-SRL Bank 2.1",
+    "QAMR"
+   ]
+  }
+ }
 }

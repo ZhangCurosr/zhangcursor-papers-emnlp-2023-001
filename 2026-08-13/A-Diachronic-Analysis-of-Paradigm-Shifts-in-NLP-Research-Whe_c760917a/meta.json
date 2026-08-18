@@ -4,5 +4,29 @@
  "title": "A-Diachronic-Analysis-of-Paradigm-Shifts-in-NLP-Research-Whe",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 14:56:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9564b0ef-e4cf-4180-95bc-e70679b45b2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9564b0ef-e4cf-4180-95bc-e70679b45b2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:05:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "因果推断",
+    "NLP研究演化",
+    "TDMM实体分析",
+    "科学计量",
+    "范式转变",
+    "ACL Anthology"
+   ],
+   "field": "NLP研究趋势与科学计量分析",
+   "innovations": [
+    "首次将因果发现与推断框架系统应用于NLP研究领域的历时分析，从因果视角揭示TDMM实体对任务演化的驱动作用",
+    "定义Task Stability Value等新因果变量并结合Skip-gram嵌入量化研究上下文稳定性",
+    "证明任务与方法才是NLP研究的核心驱动力(R²=0.97, Tasks系数3.50>Methods2.92>Datasets1.07>Metrics0.54)，超越了纯相关性分析的局限"
+   ],
+   "benchmarks": [
+    "ACL Anthology Corpus (55,366 papers, 1979-2022)"
+   ]
+  }
+ }
 }

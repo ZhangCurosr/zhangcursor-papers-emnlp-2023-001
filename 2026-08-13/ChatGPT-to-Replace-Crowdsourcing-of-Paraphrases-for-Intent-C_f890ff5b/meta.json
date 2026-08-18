@@ -4,5 +4,33 @@
  "title": "ChatGPT-to-Replace-Crowdsourcing-of-Paraphrases-for-Intent-C",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2e35bdcb-50fc-43e4-b0c6-7510d612f717.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2e35bdcb-50fc-43e4-b0c6-7510d612f717.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:08:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Intent Classification",
+    "Paraphrase Generation",
+    "ChatGPT",
+    "Crowdsourcing Replacement",
+    "Data Augmentation",
+    "Model Robustness"
+   ],
+   "field": "意图分类与数据增强",
+   "innovations": [
+    "准复制众包研究验证ChatGPT可替代众包生成paraphrase",
+    "证明ChatGPT数据在词汇和句法多样性上显著超越人类数据",
+    "发现ChatGPT数据训练的模型在OOD测试上达到可比或更优鲁棒性且成本降低600倍"
+   ],
+   "benchmarks": [
+    "ATIS",
+    "Facebook",
+    "Liu",
+    "CLINC150",
+    "Snips"
+   ]
+  }
+ }
 }

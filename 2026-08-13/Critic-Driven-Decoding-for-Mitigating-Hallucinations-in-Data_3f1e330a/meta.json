@@ -4,5 +4,30 @@
  "title": "Critic-Driven-Decoding-for-Mitigating-Hallucinations-in-Data",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f716eaf-a050-4306-b71b-3ff21fb40169.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1f716eaf-a050-4306-b71b-3ff21fb40169.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:11:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幻觉缓解",
+    "数据到文本生成",
+    "评审器驱动解码",
+    "语言模型解码",
+    "事实一致性",
+    "合成负样本"
+   ],
+   "field": "知识 grounded 自然语言生成",
+   "innovations": [
+    "提出将文本评审分类器实时融入自回归解码的贝叶斯联合框架，无需修改底层LM架构",
+    "设计了五种基于已有数据合成负样本的训练策略，实现评审器零额外数据训练",
+    "引入前缀长度感知的线性warmup策略和top-k token裁剪以平衡效率与效果"
+   ],
+   "benchmarks": [
+    "WebNLG",
+    "OpenDialKG"
+   ]
+  }
+ }
 }

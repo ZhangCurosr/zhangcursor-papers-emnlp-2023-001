@@ -4,5 +4,33 @@
  "title": "Analyzing-Norm-Violations-in-Live-Stream-Chat",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-08-13 07:10:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c7f74608-f48d-473a-bd7d-73811ebf7e02.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c7f74608-f48d-473a-bd7d-73811ebf7e02.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:06:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "toxicity detection",
+    "norm violation",
+    "live-stream chat",
+    "synchronous conversation",
+    "context-aware moderation",
+    "distribution shift"
+   ],
+   "field": "在线毒性/规范违反检测",
+   "innovations": [
+    "首个直播流同步聊天规范违反数据集 NormVio-RT（4,583 条 + 三阶段分层标注）",
+    "揭示同步/异步分布偏移的不对称泛化特性（T→R 强于 R→T）",
+    "证明合适上下文可使审核 F1 提升 35%（0.70→0.95）"
+   ],
+   "benchmarks": [
+    "NormVio-RT",
+    "Perspective API",
+    "OpenAI moderation",
+    "ToxiGen",
+    "NormVio (Park et al. 2021)"
+   ]
+  }
+ }
 }

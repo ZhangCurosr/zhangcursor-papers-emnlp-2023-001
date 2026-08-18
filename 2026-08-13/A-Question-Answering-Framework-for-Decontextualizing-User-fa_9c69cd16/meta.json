@@ -4,5 +4,32 @@
  "title": "A-Question-Answering-Framework-for-Decontextualizing-User-fa",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/324f4c8d-c07c-47e9-bda2-e7770040bc0d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/324f4c8d-c07c-47e9-bda2-e7770040bc0d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:05:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "decontextualization",
+    "scientific documents",
+    "question answering",
+    "large language models",
+    "text rewriting",
+    "information extraction"
+   ],
+   "field": "科学文档理解与自然语言生成",
+   "innovations": [
+    "提出面向用户场景的科学文献解上下文任务定义和编辑透明性要求",
+    "设计QA三阶段分解框架并通过形式化研究验证其对复杂文档处理的有效性",
+    "构建首个科学文档解上下文数据集并系统分析LLM在该任务上的性能瓶颈"
+   ],
+   "benchmarks": [
+    "S2ORC citation contexts",
+    "QASPER attribution passages",
+    "SARI-add metric",
+    "BERTScore"
+   ]
+  }
+ }
 }

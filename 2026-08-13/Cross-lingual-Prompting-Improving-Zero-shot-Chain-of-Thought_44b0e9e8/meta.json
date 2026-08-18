@@ -4,5 +4,32 @@
  "title": "Cross-lingual-Prompting-Improving-Zero-shot-Chain-of-Thought",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/deb2042e-a84f-45ac-92c7-fa99d93aff20.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/deb2042e-a84f-45ac-92c7-fa99d93aff20.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:10:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-lingual prompting",
+    "zero-shot chain-of-thought",
+    "multilingual reasoning",
+    "self-consistency",
+    "large language models",
+    "prompt engineering"
+   ],
+   "field": "跨语言大语言模型推理",
+   "innovations": [
+    "提出两阶段跨语言对齐与求解提示框架 CLP，无需示例实现跨语言零样本 CoT",
+    "设计跨语言自洽提示 CLSP，通过多语言推理路径投票提升一致性",
+    "证明 CLP 可与 ICL 正交组合并显著提升小模型跨语言推理性能"
+   ],
+   "benchmarks": [
+    "MGSM",
+    "XCOPA",
+    "XNLI",
+    "PAWS-X"
+   ]
+  }
+ }
 }

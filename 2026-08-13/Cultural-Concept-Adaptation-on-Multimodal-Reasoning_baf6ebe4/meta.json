@@ -4,5 +4,30 @@
  "title": "Cultural-Concept-Adaptation-on-Multimodal-Reasoning",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f493bb6-bdcc-45a0-99cb-e5567e99d50f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f493bb6-bdcc-45a0-99cb-e5567e99d50f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:10:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态推理",
+    "跨文化适应",
+    "数据增强",
+    "代码切换",
+    "零样本学习",
+    "多语言视觉推理"
+   ],
+   "field": "多模态跨文化推理",
+   "innovations": [
+    "提出免标注的文化概念适应方法，利用语义词典自动构建文化适应图",
+    "设计CultureMixup多模态数据增强技术，包含三级文本代码切换和基于概念的图像mixup",
+    "通过调整采样分布实现可控的模型偏见缓解"
+   ],
+   "benchmarks": [
+    "MaRVL",
+    "NLVR2"
+   ]
+  }
+ }
 }

@@ -4,5 +4,29 @@
  "title": "Augmenting-Zero-Shot-Dense-Retrievers-with-Plug-in-Mixture-o",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f5200ab9-0bc0-47b8-94da-60206b7c2775.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f5200ab9-0bc0-47b8-94da-60206b7c2775.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:06:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "零样本密集检索",
+    "检索增强",
+    "混合记忆",
+    "即插即用",
+    "FiD",
+    "注意力蒸馏"
+   ],
+   "field": "零样本密集检索",
+   "innovations": [
+    "提出混合记忆检索增强机制，支持推理时即插即用目标语料",
+    "设计 FidAtt 软标签与 ANCE 硬负样本联合训练辅助检索组件",
+    "以 T5-base 规模在 BEIR 上达到超越更大模型的零样本检索性能"
+   ],
+   "benchmarks": [
+    "BEIR"
+   ]
+  }
+ }
 }

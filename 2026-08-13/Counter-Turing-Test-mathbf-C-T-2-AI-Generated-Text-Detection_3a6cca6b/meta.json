@@ -4,5 +4,32 @@
  "title": "Counter-Turing-Test-mathbf-C-T-2-AI-Generated-Text-Detection",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f3f263af-d577-4c04-b208-6c07fec872d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f3f263af-d577-4c04-b208-6c07fec872d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:10:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI生成文本检测",
+    "对抗评估",
+    "水印绕过",
+    "AD检测性指数",
+    "LLM鲁棒性",
+    "困惑度",
+    "突发性",
+    "负对数曲率"
+   ],
+   "field": "AI生成内容检测与评估",
+   "innovations": [
+    "提出CT²基准测试系统评估六种AGTD方法的鲁棒性",
+    "提出ADI连续可检测性指数量化LLM检测难度",
+    "证明水印、困惑度、突发性、NLC在现代LLM上均易被绕过"
+   ],
+   "benchmarks": [
+    "NYT Twitter推文数据集（100K条）",
+    "15种LLM平行文本生成评测"
+   ]
+  }
+ }
 }

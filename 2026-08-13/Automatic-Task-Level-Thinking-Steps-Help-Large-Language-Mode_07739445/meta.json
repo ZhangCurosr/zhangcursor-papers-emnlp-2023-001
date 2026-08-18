@@ -4,5 +4,35 @@
  "title": "Automatic-Task-Level-Thinking-Steps-Help-Large-Language-Mode",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-08-13 07:12:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/952ac51c-94e0-4e4a-ad50-63471a4993b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/952ac51c-94e0-4e4a-ad50-63471a4993b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:06:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "in-context learning",
+    "chain-of-thought",
+    "task-level thinking",
+    "progressive revision",
+    "classification",
+    "LLM agents",
+    "prompt engineering"
+   ],
+   "field": "大语言模型提示与推理",
+   "innovations": [
+    "提出task-level thinking steps概念，从任务级别消除演示偏差",
+    "设计progressive revision framework通过教师-学生agent迭代修正思维步骤",
+    "利用困难演示反馈自动改进思维步骤质量"
+   ],
+   "benchmarks": [
+    "Stance16",
+    "Emotion20",
+    "20news",
+    "i2b2",
+    "ChemProt",
+    "DDI"
+   ]
+  }
+ }
 }

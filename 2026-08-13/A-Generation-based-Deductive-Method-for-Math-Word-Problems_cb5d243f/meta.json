@@ -4,5 +4,35 @@
  "title": "A-Generation-based-Deductive-Method-for-Math-Word-Problems",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e5b509b-2448-4b7a-9be8-663a2fd44913.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1e5b509b-2448-4b7a-9be8-663a2fd44913.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:06:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Math Word Problems",
+    "Deductive Reasoning",
+    "Generation Model",
+    "Directed Acyclic Graph",
+    "Advanced Operators",
+    "Hierarchical Beam Search",
+    "Re-encoder",
+    "mDAG"
+   ],
+   "field": "数学推理与符号生成",
+   "innovations": [
+    "提出 mDAG 支持多变量高级算子",
+    "设计 GeDe 结合生成与演绎属性避免枚举开销",
+    "实现层次束搜索提升操作序列生成质量"
+   ],
+   "benchmarks": [
+    "MAWPS",
+    "Math23k",
+    "MathQA",
+    "SVAMP",
+    "CMWPA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Can-Language-Models-Laugh-at-YouTube-Short-form-Videos",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/897c49cb-7792-46d9-b61b-58ef30c0e5a7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/897c49cb-7792-46d9-b61b-58ef30c0e5a7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:09:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "幽默理解",
+    "多模态学习",
+    "视频解释",
+    "大语言模型",
+    "数据集构建",
+    "零样本提示"
+   ],
+   "field": "多模态自然语言处理",
+   "innovations": [
+    "构建多模态幽默视频数据集ExFunTube，强调视觉与语言线索的共同作用",
+    "设计零样本视频到文本提示方法，提升LLM视频幽默解释能力",
+    "提出三维度评估体系，结合自动评分、理由质量与人工评估全面衡量幽默理解"
+   ],
+   "benchmarks": [
+    "ExFunTube",
+    "SentBERT",
+    "ROSCOE",
+    "理由质量实验"
+   ]
+  }
+ }
 }

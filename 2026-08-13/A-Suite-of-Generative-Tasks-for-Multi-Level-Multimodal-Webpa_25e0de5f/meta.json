@@ -4,5 +4,30 @@
  "title": "A-Suite-of-Generative-Tasks-for-Multi-Level-Multimodal-Webpa",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cf32731b-35f2-4ca4-bcdb-deb89556f651.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cf32731b-35f2-4ca4-bcdb-deb89556f651.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:05:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态理解",
+    "网页分析",
+    "注意力机制",
+    "图像描述",
+    "文档理解"
+   ],
+   "field": "多模态网页理解",
+   "innovations": [
+    "提出Prefix Global注意力机制，利用网页结构定义全局token前缀",
+    "构建WikiWeb2M数据集保留200万页面的完整文本-图像-结构信息",
+    "设计多粒度生成任务套件评估页面级/章节级/图像级理解能力"
+   ],
+   "benchmarks": [
+    "WikiWeb2M",
+    "WIT",
+    "Contextual Image Captioning"
+   ]
+  }
+ }
 }

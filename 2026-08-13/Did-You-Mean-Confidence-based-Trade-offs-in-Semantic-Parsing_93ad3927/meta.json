@@ -4,5 +4,29 @@
  "title": "Did-You-Mean-Confidence-based-Trade-offs-in-Semantic-Parsing",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4926ff6c-239b-4d1f-a2c0-1bc98bff562c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4926ff6c-239b-4d1f-a2c0-1bc98bff562c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:13:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "semantic parsing",
+    "confidence calibration",
+    "selective prediction",
+    "human-in-the-loop",
+    "task-oriented dialogue",
+    "safety-usability trade-off"
+   ],
+   "field": "语义解析与人机交互",
+   "innovations": [
+    "提出DidYouMean系统，以程序释义确认替代直接拒绝来平衡安全性和可用性",
+    "系统展示校准置信度在HITL标注场景中的成本-正确性权衡机制",
+    "引入循环一致性评估释义模型的忠实度"
+   ],
+   "benchmarks": [
+    "SMCalFlow"
+   ]
+  }
+ }
 }

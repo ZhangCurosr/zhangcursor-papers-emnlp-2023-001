@@ -4,5 +4,29 @@
  "title": "Absolute-Position-Embedding-Learns-Sinusoid-like-Waves-for-A",
  "token": "sk-aQHhxC28I...",
  "created_at": "2026-08-13 14:55:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c9a83def-1336-4f8e-a2bd-d89fedac1c73.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c9a83def-1336-4f8e-a2bd-d89fedac1c73.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:06:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "位置嵌入",
+    "自注意力",
+    "可解释性",
+    "相对位置",
+    "Transformer",
+    "RoBERTa"
+   ],
+   "field": "Transformer可解释性",
+   "innovations": [
+    "揭示APE自发习得类正弦波周期性成分",
+    "证明attention通过query-key相位偏移实现相对位置依赖",
+    "提出基于SVD的Query-Key分解框架显式提取周期性成分"
+   ],
+   "benchmarks": [
+    "wikitext-2"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "BioPlanner-Automatic-Evaluation-of-LLMs-on-Protocol-Planning",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/da9a3cd2-2d90-42b1-b7ee-f1e8409a78c2.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/da9a3cd2-2d90-42b1-b7ee-f1e8409a78c2.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:07:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "协议规划",
+    "自动评估",
+    "大型语言模型",
+    "生物学",
+    "伪代码",
+    "GPT-4",
+    "BIOPROT"
+   ],
+   "field": "科学AI / 生物信息学",
+   "innovations": [
+    "提出基于伪代码结构的自动化评估框架，解决科学协议生成的开放式评估难题",
+    "构建包含真实生物学实验细节的 BIOPROT 数据集并进行专家审核",
+    "定义涵盖函数选择与参数生成的细粒度评估指标体系",
+    "验证 LLM 生成的实验协议可在实际实验室中成功执行"
+   ],
+   "benchmarks": [
+    "BIOPROT"
+   ]
+  }
+ }
 }

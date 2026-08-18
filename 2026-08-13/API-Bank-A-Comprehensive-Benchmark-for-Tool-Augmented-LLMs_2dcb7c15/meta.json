@@ -4,5 +4,27 @@
  "title": "API-Bank-A-Comprehensive-Benchmark-for-Tool-Augmented-LLMs",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-01/3b439bf1-157d-43f4-a66b-2dc2f26a90b7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-01/3b439bf1-157d-43f4-a66b-2dc2f26a90b7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:06:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "工具增强LLM",
+    "API调用基准",
+    "Multi-agent数据生成",
+    "大模型工具使用",
+    "LLM评估基准"
+   ],
+   "field": "工具增强语言模型",
+   "innovations": [
+    "提出首个覆盖Call/Retrieve+Call/Plan+Retrieve+Call三级能力的工具增强LLM综合基准API-Bank",
+    "设计Multi-agent方法实现低成本自动化生成高质量工具使用训练数据（成本降低98%，可用率94%）"
+   ],
+   "benchmarks": [
+    "API-Bank"
+   ]
+  }
+ }
 }

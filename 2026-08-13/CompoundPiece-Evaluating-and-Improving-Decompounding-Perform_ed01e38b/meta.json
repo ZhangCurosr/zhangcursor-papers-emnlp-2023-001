@@ -4,5 +4,33 @@
  "title": "CompoundPiece-Evaluating-and-Improving-Decompounding-Perform",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/196ae5f6-29b1-40dd-9e2d-cab9e1553978.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/196ae5f6-29b1-40dd-9e2d-cab9e1553978.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:10:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "decompounding",
+    "compound segmentation",
+    "multilingual NLP",
+    "subword tokenization",
+    "self-supervised learning",
+    "byt5",
+    "language model evaluation"
+   ],
+   "field": "多语言形态学与分词",
+   "innovations": [
+    "两阶段自监督+监督训练框架用于多语言复合词分解",
+    "通过归一化到分割的编辑距离转换实现无分割标注的复合词分割",
+    "CompoundPiece：在分词器构建阶段引入复合词预处理以减少硬复合词"
+   ],
+   "benchmarks": [
+    "Wiktionary 56-language decompounding dataset",
+    "GermaNet",
+    "AuCoPro",
+    "SIGMORPHON 2022 Shared Task"
+   ]
+  }
+ }
 }

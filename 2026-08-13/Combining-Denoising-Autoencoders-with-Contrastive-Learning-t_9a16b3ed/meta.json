@@ -4,5 +4,10 @@
  "title": "Combining-Denoising-Autoencoders-with-Contrastive-Learning-t",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 07:11:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f17313c-2b0a-4ac8-9269-144e1df04191.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f17313c-2b0a-4ac8-9269-144e1df04191.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:09:55",
+  "chunks": 1
+ }
 }

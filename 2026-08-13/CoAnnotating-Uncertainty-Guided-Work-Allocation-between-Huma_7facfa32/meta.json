@@ -4,5 +4,34 @@
  "title": "CoAnnotating-Uncertainty-Guided-Work-Allocation-between-Huma",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/72bdde76-a175-4b69-be13-f0f176ee7ad6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/72bdde76-a175-4b69-be13-f0f176ee7ad6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:08:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "LLM annotation",
+    "human-AI collaboration",
+    "uncertainty estimation",
+    "data annotation",
+    "prompt perturbation",
+    "Pareto optimization"
+   ],
+   "field": "人机协作与数据标注",
+   "innovations": [
+    "提出实例级不确定性引导的人机协同标注框架CoAnnotating",
+    "发现多提示扰动显著优于同提示重复采样以增强不确定性估计",
+    "揭示LLM自报告置信度不可靠并提出基于熵的稳定替代方案"
+   ],
+   "benchmarks": [
+    "AG News",
+    "TREC",
+    "MRPC",
+    "TempoWiC",
+    "Stance Detection",
+    "Conversation Gone Awry"
+   ]
+  }
+ }
 }

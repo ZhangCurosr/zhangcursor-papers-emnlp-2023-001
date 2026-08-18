@@ -4,5 +4,33 @@
  "title": "ALCUNA-Large-Language-Models-Meet-New-Knowledge",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/19182dec-cac6-458e-bdf0-d78e2c6b7e5e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/19182dec-cac6-458e-bdf0-d78e2c6b7e5e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:06:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ALCUNA",
+    "KnowGen",
+    "新知识评估",
+    "大语言模型",
+    "知识关联推理",
+    "基准构建"
+   ],
+   "field": "大语言模型评估与基准",
+   "innovations": [
+    "提出KnowGen方法通过结构化遗传/变异操作生成人工新知识实体",
+    "构建ALCUNA基准首次系统评估LLM对KU/KD/KA三维新知识能力",
+    "揭示LLM跨新旧知识多跳关联推理存在显著短板且易受上下文干扰"
+   ],
+   "benchmarks": [
+    "ALCUNA",
+    "EOL",
+    "SQuAD",
+    "GLUE",
+    "CREAK"
+   ]
+  }
+ }
 }

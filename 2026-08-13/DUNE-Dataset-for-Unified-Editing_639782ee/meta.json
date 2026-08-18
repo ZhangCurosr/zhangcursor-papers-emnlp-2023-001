@@ -4,5 +4,29 @@
  "title": "DUNE-Dataset-for-Unified-Editing",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/979034ee-91de-4457-9fd6-2cfe003010de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/979034ee-91de-4457-9fd6-2cfe003010de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:11:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型编辑",
+    "数据集构建",
+    "检索增强",
+    "去偏见",
+    "局域性",
+    "大语言模型"
+   ],
+   "field": "自然语言处理与模型编辑",
+   "innovations": [
+    "提出以自由形式自然语言表达编辑请求的统一基准 DUNE，突破仅三元组的编辑定义局限",
+    "系统评估检索增强与专用编辑方法在多领域编辑任务上的性能差异",
+    "揭示编辑效果与局域性之间的权衡，以及安全与有用性在去偏见场景下的根本张力"
+   ],
+   "benchmarks": [
+    "DUNE"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Condensing-Multilingual-Knowledge-with-Lightweight-Language",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e0d38e8b-2906-4fed-bd0d-d3a94c93a803.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e0d38e8b-2906-4fed-bd0d-d3a94c93a803.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:10:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多语言机器翻译",
+    "参数高效微调",
+    "语言特异性模块",
+    "低秩分解",
+    "知识蒸馏",
+    "模型压缩"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "提出LMS方法，用低秩矩阵合成替代全秩LS模块，大幅降低参数量",
+    "提出FD方法，将多LS模块知识蒸馏至单个共享模块，提升推理效率",
+    "设计Pair-Wise合成策略，有效提升多语言翻译性能"
+   ],
+   "benchmarks": [
+    "IWSLT'14",
+    "OPUS-100",
+    "WikiANN",
+    "TyDiQA-Gold Passage"
+   ]
+  }
+ }
 }

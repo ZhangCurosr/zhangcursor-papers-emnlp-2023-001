@@ -4,5 +4,31 @@
  "title": "CombLM-Adapting-Black-Box-Language-Models-through-Small-Fine",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/23fe6aed-152e-4dcc-9c2a-d23e17dd2572.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/23fe6aed-152e-4dcc-9c2a-d23e17dd2572.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:09:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "黑盒语言模型",
+    "领域适配",
+    "概率组合",
+    "参数高效适配",
+    "机器翻译"
+   ],
+   "field": "黑盒语言模型适配",
+   "innovations": [
+    "提出仅基于概率输出的黑盒LM概率级组合适配框架",
+    "设计基于熵的组合函数平衡领域专家与通用模型",
+    "揭示组合方法容量与数据效率的权衡关系"
+   ],
+   "benchmarks": [
+    "Amazon Reviews",
+    "Enron Emails",
+    "FreeLaw",
+    "WMT21 Machine Translation"
+   ]
+  }
+ }
 }

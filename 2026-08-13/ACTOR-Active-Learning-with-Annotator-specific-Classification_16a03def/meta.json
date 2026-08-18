@@ -4,5 +4,30 @@
  "title": "ACTOR-Active-Learning-with-Annotator-specific-Classification",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:12:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fadab1fe-9568-4fed-98d4-c79257ecb8fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/fadab1fe-9568-4fed-98d4-c79257ecb8fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:05:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "主动学习",
+    "标注者分歧",
+    "多头模型",
+    "不确定性估计",
+    "主观任务",
+    "仇恨言论检测"
+   ],
+   "field": "自然语言处理-主动学习",
+   "innovations": [
+    "提出ACTOR框架将多标注者分类头与主动学习结合，实现样本×标注者联合查询",
+    "系统评估5种多头获取函数，证明群体级熵在密集/稀疏标注数据集上普遍稳健",
+    "发现仅需30%标注预算即可达到全量训练94%性能，同时不确定性估计显著优于单头模型"
+   ],
+   "benchmarks": [
+    "HS-Brexit",
+    "Gab Hate Corpus (GHC)"
+   ]
+  }
+ }
 }

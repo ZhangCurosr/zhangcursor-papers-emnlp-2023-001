@@ -4,5 +4,31 @@
  "title": "Decoding-the-Silent-Majority-Inducing-Belief-Augmented-Socia",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6b326fb4-bcdf-44a9-8213-2c9394d05056.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6b326fb4-bcdf-44a9-8213-2c9394d05056.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:11:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "response forecasting",
+    "belief-augmented graph",
+    "large language model",
+    "social network",
+    "sentiment prediction",
+    "heterogeneous graph transformer",
+    "lurker"
+   ],
+   "field": "Social NLP / 社交媒体响应预测",
+   "innovations": [
+    "用LLM抽取用户潜在信念人格并构建信念增强异构图，桥接跨社区同信用户",
+    "在监督与零样本双设置下统一建模，提出Social Prompt模拟图传播",
+    "系统评估并在lurker/unseen user场景验证强泛化能力"
+   ],
+   "benchmarks": [
+    "RFPN (Response Forecasting on Personas for News)",
+    "Twitter social graph (18,634 users, 1,744,664 edges)"
+   ]
+  }
+ }
 }

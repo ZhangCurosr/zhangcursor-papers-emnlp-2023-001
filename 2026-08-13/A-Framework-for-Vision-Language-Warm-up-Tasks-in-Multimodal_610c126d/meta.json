@@ -4,5 +4,29 @@
  "title": "A-Framework-for-Vision-Language-Warm-up-Tasks-in-Multimodal",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1cd25b92-ef70-40d3-a2f0-3262f5ed093a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1cd25b92-ef70-40d3-a2f0-3262f5ed093a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:06:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态对话",
+    "视觉-语言预热",
+    "自监督预训练",
+    "Image-Chat",
+    "小模型训练",
+    "字幕生成"
+   ],
+   "field": "多模态对话系统",
+   "innovations": [
+    "提出仅用目标数据的四任务预热框架VLAW-MDM，无需额外预训练数据集",
+    "将自动生成字幕作为视觉-语言桥梁，显著提升小模型多模态对话性能",
+    "证明无字幕条件下对话历史可补偿图像信息缺失"
+   ],
+   "benchmarks": [
+    "Image-Chat"
+   ]
+  }
+ }
 }

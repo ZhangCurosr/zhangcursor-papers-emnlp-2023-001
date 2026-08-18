@@ -4,5 +4,33 @@
  "title": "BioT5-Enriching-Cross-modal-Integration-in-Biology-with-Chem",
  "token": "sk-wGl2gwQjA...",
  "created_at": "2026-08-13 07:10:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9f60cb1-cab1-49f4-9f09-8a7f66bff618.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9f60cb1-cab1-49f4-9f09-8a7f66bff618.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:07:32",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态预训练",
+    "分子表征",
+    "蛋白质语言模型",
+    "SELFIES",
+    "跨模态整合",
+    "药物发现"
+   ],
+   "field": "生物信息学与计算生物学",
+   "innovations": [
+    "使用SELFIES替代SMILES实现100%有效分子生成",
+    "分离式词汇表避免跨模态语义冲突",
+    "六任务多模态预训练框架整合文本-分子-蛋白质知识"
+   ],
+   "benchmarks": [
+    "MoleculeNet",
+    "PEER",
+    "BioSNAP",
+    "BindingDB",
+    "ChEBI-20"
+   ]
+  }
+ }
 }
