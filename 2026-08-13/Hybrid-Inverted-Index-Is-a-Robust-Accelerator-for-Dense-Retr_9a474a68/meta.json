@@ -4,5 +4,31 @@
  "title": "Hybrid-Inverted-Index-Is-a-Robust-Accelerator-for-Dense-Retr",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:12:03",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/20eaefc3-e034-4fa6-bc89-f08ad814a593.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/20eaefc3-e034-4fa6-bc89-f08ad814a593.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:43:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dense retrieval",
+    "inverted index",
+    "vector quantization",
+    "hybrid retrieval",
+    "knowledge distillation",
+    "ANN index",
+    "product quantization"
+   ],
+   "field": "信息检索与稠密检索加速",
+   "innovations": [
+    "提出HI²混合倒排索引，在索引层面统一嵌入簇与显著词加速稠密检索",
+    "设计簇选择器与词选择器，支持无监督(KMeans+BM25)和端到端知识蒸馏两种实现",
+    "通过知识蒸馏联合优化簇嵌入与词选择器，配合commitment loss保持簇分配稳定"
+   ],
+   "benchmarks": [
+    "MS MARCO Passage",
+    "Natural Questions"
+   ]
+  }
+ }
 }

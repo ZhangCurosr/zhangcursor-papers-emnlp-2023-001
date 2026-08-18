@@ -4,5 +4,29 @@
  "title": "Evaluating-Object-Hallucination-in-Large-Vision-Language-Mod",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:44",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-05/e2c9f580-737d-4cb5-8ea7-ba8350edbcd0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-05/e2c9f580-737d-4cb5-8ea7-ba8350edbcd0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:39:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "物体幻觉",
+    "大视觉语言模型",
+    "POPE",
+    "多模态评估",
+    "视觉指令微调"
+   ],
+   "field": "多模态大模型评估",
+   "innovations": [
+    "提出POPE将幻觉评估转化为稳定的二分类任务",
+    "揭示视觉指令数据分布对幻觉的影响机制"
+   ],
+   "benchmarks": [
+    "MSCOCO",
+    "A-OKVQA",
+    "GQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "How-Does-Generative-Retrieval-Scale-to-Millions-of-Passages",
  "token": "sk-I70XXkbCl...",
  "created_at": "2026-08-13 07:11:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0cce32c0-d818-4374-9331-af1b203661c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0cce32c0-d818-4374-9331-af1b203661c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:42:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "generative retrieval",
+    "DSI",
+    "synthetic query",
+    "MS MARCO",
+    "neural search",
+    "retrieval scaling"
+   ],
+   "field": "生成式信息检索",
+   "innovations": [
+    "首篇百万级语料生成式检索系统评估，揭示合成查询是唯一随规模仍有效的技术",
+    "发现模型规模（3B→11B）与检索性能非单调关系，XL优于XXL",
+    "从参数、训练速度、推理FLOPs三维提供生成式检索成本分析框架"
+   ],
+   "benchmarks": [
+    "NQ100K",
+    "TriviaQA",
+    "MSMARCO 100K/1M/8.8M",
+    "TREC DL 19/20"
+   ]
+  }
+ }
 }

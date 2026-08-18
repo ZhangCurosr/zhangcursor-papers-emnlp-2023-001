@@ -4,5 +4,31 @@
  "title": "Hierarchical-Pretraining-on-Multimodal-Electronic-Health-Rec",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13dc1097-fb0b-4e1b-94eb-8e4df2de1759.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/13dc1097-fb0b-4e1b-94eb-8e4df2de1759.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:42:37",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "电子健康记录",
+    "分层预训练",
+    "多模态学习",
+    "医疗预测",
+    "自监督学习",
+    "对比学习"
+   ],
+   "field": "医疗人工智能",
+   "innovations": [
+    "提出MEDHMP自下而上的层次化多模态预训练框架",
+    "设计模态内掩码代码预测和模态间对比学习双重建任务",
+    "在3层次8任务上验证，低资源场景下预训练显著增益"
+   ],
+   "benchmarks": [
+    "MIMIC-III ARF/Shock/Mortality预测",
+    "MIMIC-III 30天再入院预测",
+    "TriNetX心力衰竭/COPD/遗忘症风险预测"
+   ]
+  }
+ }
 }

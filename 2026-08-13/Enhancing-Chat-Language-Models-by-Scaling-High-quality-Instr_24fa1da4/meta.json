@@ -4,5 +4,35 @@
  "title": "Enhancing-Chat-Language-Models-by-Scaling-High-quality-Instr",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f72c55c-58f4-453e-b4ed-9e28d5256fc6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f72c55c-58f4-453e-b4ed-9e28d5256fc6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:38:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "instruction tuning",
+    "chat language model",
+    "data generation",
+    "UltraChat",
+    "UltraLM",
+    "multi-turn conversation",
+    "open-source LLM"
+   ],
+   "field": "对话语言模型与指令微调",
+   "innovations": [
+    "提出UltraChat百万级多轮指令对话数据集，采用三扇区结构化设计",
+    "双ChatGPT API迭代用户-AI模拟机制，解决角色混淆问题",
+    "UltraLM-13B在多项开源基准上超越Vicuna/WizardLM达到SOTA"
+   ],
+   "benchmarks": [
+    "ARC-Challenge",
+    "HellaSwag",
+    "MMLU",
+    "TruthfulQA",
+    "AlpacaEval",
+    "Evol-Instruct"
+   ]
+  }
+ }
 }

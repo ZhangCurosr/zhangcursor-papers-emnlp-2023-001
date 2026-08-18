@@ -4,5 +4,31 @@
  "title": "Exploring-All-In-One-Knowledge-Distillation-Framework-for-Ne",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1f0ebee-fcdc-4f11-9ea2-d0b80c8e63fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c1f0ebee-fcdc-4f11-9ea2-d0b80c8e63fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识蒸馏",
+    "神经网络机器翻译",
+    "互学习",
+    "模型压缩",
+    "变深度Transformer",
+    "多任务学习"
+   ],
+   "field": "机器翻译模型压缩",
+   "innovations": [
+    "提出AIO-KD框架，从单一教师模型中抽取多个候选子网络并联合优化，实现一次训练生成多种规格学生",
+    "设计动态梯度隔离策略，基于CE损失比过滤差学生对教师参数的负向梯度传播",
+    "引入两阶段互学训练策略，先单源蒸馏后引入学生间互学，避免早期训练噪声干扰"
+   ],
+   "benchmarks": [
+    "IWSLT14 De-En",
+    "WMT16 En-Ro",
+    "WMT14 En-De"
+   ]
+  }
+ }
 }

@@ -4,5 +4,38 @@
  "title": "Evaluating-Large-Language-Models-on-Controlled-Generation-Ta",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d94c7782-4838-4a07-9c83-5ecadf8c61db.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d94c7782-4838-4a07-9c83-5ecadf8c61db.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:39:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "可控文本生成",
+    "大语言模型评测",
+    "数值规划",
+    "上下文学习",
+    "句法控制",
+    "理由生成"
+   ],
+   "field": "可控文本生成与大模型评测",
+   "innovations": [
+    "首创数值规划基准NPB揭示LLM细粒度约束能力缺陷",
+    "发现few-shot ICL在数值任务上反常退化而非提升性能",
+    "建立LLM可控能力光谱（落后/持平/超越微调小模型）"
+   ],
+   "benchmarks": [
+    "NPB",
+    "ROCStories",
+    "Writing Prompts",
+    "CoS-E",
+    "ECQA",
+    "ParaNMT-small",
+    "QQP-Pos",
+    "CommonGEN",
+    "M2D2",
+    "Amazon Review"
+   ]
+  }
+ }
 }

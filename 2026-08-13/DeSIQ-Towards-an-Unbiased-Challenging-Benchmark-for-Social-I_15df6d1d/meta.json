@@ -4,5 +4,33 @@
  "title": "DeSIQ-Towards-an-Unbiased-Challenging-Benchmark-for-Social-I",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c6a566cf-fa29-4798-b196-115aa493c44c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c6a566cf-fa29-4798-b196-115aa493c44c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:37:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Social Intelligence",
+    "Debiasing",
+    "Multimodal QA",
+    "Benchmark",
+    "Commonsense Knowledge",
+    "Social-IQ"
+   ],
+   "field": "多模态社会智能理解",
+   "innovations": [
+    "提出六类系统性偏差检测方法（NCAQ/MPM/RIWI/RIWA/RAWI/RAWA）量化Social-IQ答案侧偏差",
+    "构建去偏基准DeSIQ（DeSIQd/DeSIQs）通过RIWA扰动替换错误答案",
+    "提出T5-small_Delphi通过社会常识知识蒸馏提升去偏基准性能"
+   ],
+   "benchmarks": [
+    "Social-IQ",
+    "Social-IQ-2.0",
+    "DeSIQ",
+    "DeSIQd",
+    "DeSIQs"
+   ]
+  }
+ }
 }

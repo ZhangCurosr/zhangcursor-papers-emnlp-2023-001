@@ -4,5 +4,34 @@
  "title": "HISTALIGN-Improving-Context-Dependency-in-Language-Generatio",
  "token": "sk-SDuVT3fV1...",
  "created_at": "2026-08-13 07:12:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2108b8d7-2c2f-4de5-80a5-77467f48f851.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2108b8d7-2c2f-4de5-80a5-77467f48f851.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:42:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Cache-LM",
+    "语言生成",
+    "上下文依赖",
+    "对比学习",
+    "幻觉",
+    "Softmax瓶颈",
+    "忠实度"
+   ],
+   "field": "语言生成与上下文建模",
+   "innovations": [
+    "提出HISTALIGN训练框架，引入基于排序感知的对比损失以对齐缓存组件",
+    "从softmax瓶颈理论视角证明本地缓存可打破参数化LM的表达能力限制",
+    "在多种生成任务（开放生成、摘要、data-to-text）上统一验证方法的有效性与泛化性"
+   ],
+   "benchmarks": [
+    "Ambiguous Template",
+    "WritingPrompts",
+    "XSum",
+    "CNN/DM",
+    "LogicNLG"
+   ]
+  }
+ }
 }

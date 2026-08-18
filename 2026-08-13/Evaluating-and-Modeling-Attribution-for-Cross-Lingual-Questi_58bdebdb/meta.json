@@ -4,5 +4,30 @@
  "title": "Evaluating-and-Modeling-Attribution-for-Cross-Lingual-Questi",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c028d6d5-6f5c-40aa-9fb7-7fe249ab1e27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c028d6d5-6f5c-40aa-9fb7-7fe249ab1e27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:39:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言问答",
+    "归因评估",
+    "开放检索",
+    "大语言模型",
+    "自然语言推理"
+   ],
+   "field": "跨语言自然语言处理",
+   "innovations": [
+    "首次提出跨语言归因评估框架与多语言数据集",
+    "验证PaLM 2在250个样本微调下的高效归因检测能力",
+    "通过NLI重排序显著提升跨语言QA归因率"
+   ],
+   "benchmarks": [
+    "XOR-AttriQA",
+    "XOR-TyDiQA",
+    "CORA"
+   ]
+  }
+ }
 }

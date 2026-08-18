@@ -4,5 +4,10 @@
  "title": "Active-Instruction-Tuning-Improving-Cross-Task-Generalizatio",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:41",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6c3e6e46-881e-46ad-9991-66570a6c7f7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6c3e6e46-881e-46ad-9991-66570a6c7f7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:37:44",
+  "chunks": 1
+ }
 }

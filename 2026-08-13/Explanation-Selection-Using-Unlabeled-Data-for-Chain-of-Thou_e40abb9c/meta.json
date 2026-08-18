@@ -4,5 +4,34 @@
  "title": "Explanation-Selection-Using-Unlabeled-Data-for-Chain-of-Thou",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 07:12:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a082dc6-acea-4e0c-baf7-647e249162ab.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a082dc6-acea-4e0c-baf7-647e249162ab.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:39:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "chain-of-thought",
+    "in-context learning",
+    "prompt optimization",
+    "explanation selection",
+    "proxy metric",
+    "silver labeling"
+   ],
+   "field": "大语言模型提示工程与推理",
+   "innovations": [
+    "提出基于无标签开发的解释组合两阶段搜索框架，通过留一法生成候选解释并用代理指标高效筛选",
+    "设计单样本银标准确率 S_OSAcc 和单样本对数似然 S_OSLL 两种低成本代理指标，用于优先排序解释组合",
+    "证明优化后的解释具有跨域泛化能力，可在未见过推理数据集上持续提升性能"
+   ],
+   "benchmarks": [
+    "GSM",
+    "ECQA",
+    "E-SNLI",
+    "STRATEGYQA",
+    "SVAMP",
+    "MAWPS"
+   ]
+  }
+ }
 }

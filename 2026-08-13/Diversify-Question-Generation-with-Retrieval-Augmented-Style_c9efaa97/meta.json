@@ -4,5 +4,29 @@
  "title": "Diversify-Question-Generation-with-Retrieval-Augmented-Style",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f2593a0-992b-4bf8-a970-c9f0d417a464.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f2593a0-992b-4bf8-a970-c9f0d417a464.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:37:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Question Generation",
+    "Retrieval-Augmented Generation",
+    "Reinforcement Learning",
+    "Text Diversity",
+    "Style Transfer"
+   ],
+   "field": "自然语言生成",
+   "innovations": [
+    "提出RAST框架，通过外部风格模板检索提升QG多样性",
+    "设计RL双奖励（一致性+多样性）联合训练检索器与生成器",
+    "引入多样性驱动聚类采样策略避免检索器退化到局部最优"
+   ],
+   "benchmarks": [
+    "SQuAD",
+    "NewsQA"
+   ]
+  }
+ }
 }

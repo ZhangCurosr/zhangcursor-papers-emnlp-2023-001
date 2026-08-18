@@ -4,5 +4,30 @@
  "title": "Fine-grained-Conversational-Decoding-via-Isotropic-and-Proxi",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0eac871b-6301-4f32-993b-9092623048d7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0eac871b-6301-4f32-993b-9092623048d7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:41:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "对话生成",
+    "解码策略",
+    "各向异性",
+    "contrastive search",
+    "SimDRC",
+    "text generation"
+   ],
+   "field": "对话系统/自然语言生成",
+   "innovations": [
+    "提出IPS解码策略，将已生成token与上下文影响分离并分别施加proximal和isotropic约束",
+    "证明SimDRC训练目标与IPS解码目标高度一致，协同效果最佳",
+    "发现解码阶段proximal与isotropic值应以β=0.5平衡，不同于训练阶段的权重偏好"
+   ],
+   "benchmarks": [
+    "DailyDialog",
+    "LCCC"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "An-Expression-Tree-Decoding-Strategy-for-Mathematical-Equati",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 07:10:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a74b57aa-003b-4a0d-a9c5-c400df462732.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a74b57aa-003b-4a0d-a9c5-c400df462732.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:37:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Math Word Problem",
+    "Equation Generation",
+    "Expression Tree",
+    "Parallel Decoding",
+    "Bipartite Matching",
+    "Query-based Generation"
+   ],
+   "field": "数学应用题求解与符号生成",
+   "innovations": [
+    "首次将query-based object detection引入数学方程生成，用learnable queries并行识别多个独立子表达式",
+    "提出layer-wise parallel decoding构建表达式树，隐式编码步骤间的并行与依赖关系",
+    "设计基于bipartite matching的无序集合对齐损失，消除人工生成顺序依赖"
+   ],
+   "benchmarks": [
+    "MathQA",
+    "Math23K",
+    "MAWPS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Failures-Pave-the-Way-Enhancing-Large-Language-Models-throug",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a2f693f-2be9-4f5c-981a-4dfbb1c082f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0a2f693f-2be9-4f5c-981a-4dfbb1c082f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Large Language Models",
+    "Prompt Engineering",
+    "Tuning-free Adaptation",
+    "Rule Accumulation",
+    "Online Learning",
+    "Error Correction"
+   ],
+   "field": "大语言模型提示优化与在线自适应",
+   "innovations": [
+    "提出TRAN框架，通过从错误中积累if-then规则实现无微调LLM自适应",
+    "设计多错总结机制与规则维护策略（冲突检测+LRU淘汰）",
+    "证明规则与CoT等提示策略正交互补，叠加可进一步提升性能"
+   ],
+   "benchmarks": [
+    "BBQ-Lite",
+    "AGNews",
+    "DBPedia",
+    "TweetEval",
+    "Dyck Language"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Establishing-Trustworthiness-Rethinking-Tasks-and-Model-Eval",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-08-13 14:54:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9f5dd2d-4a45-4cc0-8e2b-d4d73fcfe75c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d9f5dd2d-4a45-4cc0-8e2b-d4d73fcfe75c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:39:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "trustworthiness",
+    "LLM evaluation",
+    "knowledge facets",
+    "reproducible NLP",
+    "model transparency",
+    "benchmark limitations"
+   ],
+   "field": "语言模型可信度与评估",
+   "innovations": [
+    "提出基于Hays定义的可信度框架，以知识面（功能能力+来源）为评估核心维度",
+    "区分'所需技能'与'所用工'的分析框架，指向faithfulness评估新方向",
+    "倡导发布完整预测历史作为最低可行信任建立手段"
+   ],
+   "benchmarks": [
+    "HELM",
+    "GLUE Diagnostics"
+   ]
+  }
+ }
 }

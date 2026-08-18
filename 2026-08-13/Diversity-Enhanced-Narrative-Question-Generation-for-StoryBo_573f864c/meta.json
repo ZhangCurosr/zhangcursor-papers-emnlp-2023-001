@@ -4,5 +4,31 @@
  "title": "Diversity-Enhanced-Narrative-Question-Generation-for-StoryBo",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:10:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9ca689b4-a08b-4bc0-9ebe-c6867042045a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9ca689b4-a08b-4bc0-9ebe-c6867042045a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:38:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "question generation",
+    "diversity",
+    "narrative QA",
+    "recursive generation",
+    "fairytaleQA",
+    "answerability evaluation"
+   ],
+   "field": "自然语言生成与问答",
+   "innovations": [
+    "提出L_MQS损失通过参考问题相似度约束驱动多样化生成",
+    "递归生成框架将历史问题作为输入持续扩展问题集合",
+    "基于SQuAD2.0微调的可答性评估模型实现三分类质量筛选"
+   ],
+   "benchmarks": [
+    "FairytaleQA",
+    "TellMeWhy",
+    "SQuAD1.1"
+   ]
+  }
+ }
 }

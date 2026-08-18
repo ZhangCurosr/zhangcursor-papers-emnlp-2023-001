@@ -4,5 +4,31 @@
  "title": "Fidelity-Enriched-Contrastive-Search-Reconciling-the-Faithfu",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/865701a4-e474-48a8-9cd0-d02c7a8d3bcf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/865701a4-e474-48a8-9cd0-d02c7a8d3bcf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:38",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "文本生成",
+    "解码策略",
+    "幻觉缓解",
+    "忠实性",
+    "对比搜索",
+    "抽象摘要",
+    "对话生成"
+   ],
+   "field": "自然语言生成",
+   "innovations": [
+    "在Contrastive Search框架中引入忠实性奖励项，实现无需训练的解码时忠实性增强",
+    "解耦模型置信度、退化解罚、忠实性奖励为独立权重项，协同优化忠实性与多样性权衡",
+    "提出固定超参设置(k,α,β)=(4,0.3,0.3)，跨模型规模和任务无需调参即可生效"
+   ],
+   "benchmarks": [
+    "CNN-DailyMail",
+    "Wizard of Wikipedia"
+   ]
+  }
+ }
 }

@@ -4,5 +4,33 @@
  "title": "Evaluating-Cross-Domain-Text-to-SQL-Models-and-Benchmarks",
  "token": "sk-YrIlRFySy...",
  "created_at": "2026-08-13 07:11:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/19648ec2-5544-4966-bcb2-b4122d727bf5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/19648ec2-5544-4966-bcb2-b4122d727bf5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:38:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Text-to-SQL",
+    "Benchmark Evaluation",
+    "Execution Accuracy",
+    "Spider",
+    "BIRD",
+    "LLM",
+    "Human Evaluation",
+    "SQL Equivalence"
+   ],
+   "field": "Text-to-SQL 评估与方法论",
+   "innovations": [
+    "系统性量化 Text-to-SQL 基准中平局/歧义/错误假设导致的评估偏差（18%-23%）",
+    "GPT-4 模型 DIN-SQL 在人工评估中超越 Ground Truth（81.6% vs 67.3%）",
+    "SQLite→PostgreSQL 迁移验证揭示三大基准中 410+ 条结构性查询缺陷"
+   ],
+   "benchmarks": [
+    "Spider",
+    "Spider-DK",
+    "BIRD"
+   ]
+  }
+ }
 }

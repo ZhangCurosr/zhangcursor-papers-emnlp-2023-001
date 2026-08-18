@@ -4,5 +4,32 @@
  "title": "Fifty-Shades-of-Bias-Normative-Ratings-of-Gender-Bias-in-GPT",
  "token": "sk-qk0HszLxn...",
  "created_at": "2026-08-13 07:11:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/31553410-6da5-42bf-a8f4-cc9d3c815aed.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/31553410-6da5-42bf-a8f4-cc9d3c815aed.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "性别偏见",
+    "Best-Worst Scaling",
+    "GPT生成文本",
+    "细粒度偏见评分",
+    "BWS标注",
+    "公平性评估"
+   ],
+   "field": "NLP公平性与偏见检测",
+   "innovations": [
+    "首个采用BWS框架的GPT生成英文文本细粒度性别偏见评分数据集（1000条，0-1连续值）",
+    "系统揭示种子类型与提示策略对GPT偏见生成程度的影响规律，发现conversion格式更易产生高偏见文本",
+    "揭示GPT-4评分准确但推理解释存在缺陷的'评分-推理分离'现象"
+   ],
+   "benchmarks": [
+    "CORGI-PM",
+    "Ruddit",
+    "StereoSet",
+    "Perspective API"
+   ]
+  }
+ }
 }

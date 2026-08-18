@@ -4,5 +4,30 @@
  "title": "Document-level-Relationship-Extraction-by-Bidirectional-Cons",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:05",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/44ede797-d8e5-46e2-b0f0-07e29063932f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/44ede797-d8e5-46e2-b0f0-07e29063932f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:38:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Document-level Relation Extraction",
+    "逻辑约束",
+    "Beta分布",
+    "规则挖掘",
+    "双向约束"
+   ],
+   "field": "文档级关系抽取",
+   "innovations": [
+    "首个基于Beta分布的规则挖掘器，同时建模成功与失败计数以过滤伪规则",
+    "首次引入反向逻辑约束并建模为可微一致性损失",
+    "双向约束联合训练框架，作为即插即用插件增强任意骨干DocRE模型"
+   ],
+   "benchmarks": [
+    "DWIE",
+    "DocRED",
+    "Re-DocRED"
+   ]
+  }
+ }
 }

@@ -4,5 +4,30 @@
  "title": "Generating-and-Evaluating-Tests-for-K-12-Students-with-Langu",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f794594-e55e-447e-8b12-f67b5bbcd7f5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5f794594-e55e-447e-8b12-f67b5bbcd7f5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:41:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "item generation",
+    "parallel test",
+    "sentence reading efficiency",
+    "optimal transport",
+    "LLM simulation",
+    "educational assessment"
+   ],
+   "field": "教育测评与大模型自动化出题",
+   "innovations": [
+    "通过微调LLM模拟历史学生对新题的反应以自动校准SRE题目难度与歧义性",
+    "将平行测试构建形式化为带语义多样性约束的可微最优传输问题"
+   ],
+   "benchmarks": [
+    "SRE Lab test form",
+    "Flesch Kincaid",
+    "Item Response Theory"
+   ]
+  }
+ }
 }

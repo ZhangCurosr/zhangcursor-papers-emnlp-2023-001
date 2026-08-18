@@ -4,5 +4,31 @@
  "title": "Fast-and-Accurate-Factual-Inconsistency-Detection-Over-Long",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/755ed97a-eca6-461b-858e-f868d1c0f681.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/755ed97a-eca6-461b-858e-f868d1c0f681.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:40:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Factual Inconsistency Detection",
+    "NLI",
+    "Long Document",
+    "Chunking",
+    "ScreenEval",
+    "Calibration",
+    "BST Retrieval"
+   ],
+   "field": "事实一致性检测",
+   "innovations": [
+    "基于大块文本分块的NLI事实不一致检测方法SCALE",
+    "二叉搜索树O(log n)高效溯源检索机制",
+    "首个长对话事实不一致检测数据集ScreenEval"
+   ],
+   "benchmarks": [
+    "TRUE",
+    "ScreenEval"
+   ]
+  }
+ }
 }

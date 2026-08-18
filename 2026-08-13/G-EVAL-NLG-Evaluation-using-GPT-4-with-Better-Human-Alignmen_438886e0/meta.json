@@ -4,5 +4,32 @@
  "title": "G-EVAL-NLG-Evaluation-using-GPT-4-with-Better-Human-Alignmen",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f40c34b-913a-4cd8-ae56-0c55f3ad2be6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/2f40c34b-913a-4cd8-ae56-0c55f3ad2be6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:41:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "NLG Evaluation",
+    "Large Language Models",
+    "GPT-4",
+    "Chain-of-Thought",
+    "Automatic Metrics",
+    "Human Alignment",
+    "Bias"
+   ],
+   "field": "自然语言生成评估",
+   "innovations": [
+    "提出结合思维链与填表范式的G-EVAL框架，显著提升LLM评估器与人类判断的相关性",
+    "设计自动CoT生成评估步骤，提升评估过程的上下文理解与可解释性",
+    "揭示LLM评估器对自生成文本的偏好偏见及其自我强化风险"
+   ],
+   "benchmarks": [
+    "SummEval",
+    "Topical-Chat",
+    "QAGS"
+   ]
+  }
+ }
 }

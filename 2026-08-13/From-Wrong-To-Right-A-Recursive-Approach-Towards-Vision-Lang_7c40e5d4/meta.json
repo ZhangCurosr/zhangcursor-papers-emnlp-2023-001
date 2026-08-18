@@ -4,5 +4,33 @@
  "title": "From-Wrong-To-Right-A-Recursive-Approach-Towards-Vision-Lang",
  "token": "sk-dD4E81LFV...",
  "created_at": "2026-08-13 07:11:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dd3d9ee8-af52-420f-a857-9b4e20fb7974.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/dd3d9ee8-af52-420f-a857-9b4e20fb7974.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 15:41:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言解释",
+    "递归推理",
+    "BLIP-v2",
+    "Few-shot自训练",
+    "多模态生成",
+    "低资源学习",
+    "VL-NLE"
+   ],
+   "field": "视觉语言推理与解释生成",
+   "innovations": [
+    "提出ReVisE递归框架，通过语言引导重新计算视觉特征实现自我修正",
+    "仅用5%标注数据即达到或超越全量数据训练的SOTA方法",
+    "利用递归修正后的伪解释进行few-shot自训练，优于传统方法"
+   ],
+   "benchmarks": [
+    "VCR",
+    "e-SNLI-VE",
+    "VQA-X",
+    "AOK-VQA"
+   ]
+  }
+ }
 }
