@@ -4,5 +4,32 @@
  "title": "LLM-powered-Data-Augmentation-for-Enhanced-Crosslingual-Perf",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:12:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f7f84897-47b1-4003-9a0d-0d7c061090fa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f7f84897-47b1-4003-9a0d-0d7c061090fa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:48:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数据增强",
+    "跨语言迁移",
+    "常识推理",
+    "大语言模型",
+    "合成数据",
+    "XCOPA",
+    "多语言NLP"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "系统比较英文生成/目标语言生成/翻译三种LLM数据增强策略在多语言常识推理任务上的效果",
+    "发现GPT-4生成数据在逻辑一致性和自然度上最接近人类数据，显著优于ChatGPT",
+    "揭示了极低资源语言（如泰米尔语）中LLM生成质量不足的问题及高质量少量样本的杠杆效应"
+   ],
+   "benchmarks": [
+    "XCOPA",
+    "XWinograd",
+    "XStoryCloze"
+   ]
+  }
+ }
 }

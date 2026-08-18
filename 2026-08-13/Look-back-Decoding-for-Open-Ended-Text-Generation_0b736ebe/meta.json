@@ -4,5 +4,30 @@
  "title": "Look-back-Decoding-for-Open-Ended-Text-Generation",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 07:10:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba7bf6c8-9176-4895-bd4a-38e901b4f949.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ba7bf6c8-9176-4895-bd4a-38e901b4f949.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:50:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "open-ended text generation",
+    "decoding algorithm",
+    "KL divergence",
+    "repetition",
+    "topic drift",
+    "language model"
+   ],
+   "field": "开放文本生成解码方法",
+   "innovations": [
+    "提出基于KL散度的Look-back解码算法检测重复和主题漂移",
+    "设计双重距离机制平衡多样性和连贯性",
+    "适用于黑盒模型如GPT-3的解码改进方法"
+   ],
+   "benchmarks": [
+    "WikiText-103",
+    "WritingPrompts"
+   ]
+  }
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Lion-Adversarial-Distillation-of-Proprietary-Large-Language",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9828db3a-12d2-44e4-beb5-b7a9cffbe7fe.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9828db3a-12d2-44e4-beb5-b7a9cffbe7fe.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:50:44",
+  "chunks": 1
+ }
 }

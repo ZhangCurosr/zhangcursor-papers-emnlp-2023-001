@@ -4,5 +4,32 @@
  "title": "Linear-Time-Modeling-of-Linguistic-Structure-An-Order-Theore",
  "token": "sk-CZoysi7P5...",
  "created_at": "2026-08-13 14:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b9e7cc05-ebe1-4c53-99f9-da17ed66c4fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b9e7cc05-ebe1-4c53-99f9-da17ed66c4fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:49:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "structured prediction",
+    "order theory",
+    "dependency parsing",
+    "coreference resolution",
+    "linear-time algorithm",
+    "partial order",
+    "realizer"
+   ],
+   "field": "高效结构化预测",
+   "innovations": [
+    "将语言结构建模为token偏序，用K个全序交集替代O(N^2)边对评分",
+    "提出token-split二分映射消除传递性冗余",
+    "基于Fredman技巧实现O(N)线性聚合训练/解码"
+   ],
+   "benchmarks": [
+    "Penn Treebank (PTB)",
+    "Universal Dependencies 2.2",
+    "OntoNotes Coreference Resolution"
+   ]
+  }
+ }
 }

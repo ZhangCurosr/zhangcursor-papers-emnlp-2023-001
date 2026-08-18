@@ -4,5 +4,30 @@
  "title": "OPENASP-A-Benchmark-for-Multi-document-Open-Aspect-based-Sum",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-08-13 07:11:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/143e87c4-b32c-4cb0-800b-5c622416a8cf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/143e87c4-b32c-4cb0-800b-5c622416a8cf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:51:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "aspect-based summarization",
+    "multi-document summarization",
+    "open aspect",
+    "benchmark dataset",
+    "news summarization"
+   ],
+   "field": "多文档开放层面摘要",
+   "innovations": [
+    "提出从通用MDS摘要高效派生多文档开放层面摘要的低成本标注协议",
+    "构建首个高质量多文档开放层面摘要基准OPENASP（1,310实例，419主题）",
+    "系统评估filter-then-summarize与recursive摘要策略并揭示任务挑战性"
+   ],
+   "benchmarks": [
+    "OPENASP",
+    "DUC",
+    "MultiNews"
+   ]
+  }
+ }
 }

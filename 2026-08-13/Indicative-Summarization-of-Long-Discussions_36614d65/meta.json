@@ -4,5 +4,32 @@
  "title": "Indicative-Summarization-of-Long-Discussions",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-08-13 07:12:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4548938-f2f0-4cc2-96f3-f79cd28689a5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4548938-f2f0-4cc2-96f3-f79cd28689a5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:47:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "indicative summarization",
+    "discussion navigation",
+    "LLM prompting",
+    "argumentation frames",
+    "clustering",
+    "ChangeMyView"
+   ],
+   "field": "论点讨论摘要与导航",
+   "innovations": [
+    "提出无监督的两级指示性摘要框架，用论证框架作标题、生成式聚类标签作副标题",
+    "设计基于比例判定的元句子噪声过滤机制，自动剔除交互性无关句子",
+    "系统评测19种LLM在聚类标签生成与框架分配上的零样本/少样本表现"
+   ],
+   "benchmarks": [
+    "Winning Arguments (CMV corpus)",
+    "HELM",
+    "BERTScore",
+    "ROUGE"
+   ]
+  }
+ }
 }

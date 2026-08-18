@@ -4,5 +4,10 @@
  "title": "Length-is-a-Curse-and-a-Blessing-for-Document-level-Semantic",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42b77a43-909d-4e96-b431-94e27aafa7d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/42b77a43-909d-4e96-b431-94e27aafa7d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:50:07",
+  "chunks": 1
+ }
 }

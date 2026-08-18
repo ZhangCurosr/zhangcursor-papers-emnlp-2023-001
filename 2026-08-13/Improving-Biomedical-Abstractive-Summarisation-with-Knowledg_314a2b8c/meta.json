@@ -4,5 +4,33 @@
  "title": "Improving-Biomedical-Abstractive-Summarisation-with-Knowledg",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/950d869e-2d4d-44ea-ad16-e42b2ed25af7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/950d869e-2d4d-44ea-ad16-e42b2ed25af7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:47:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "biomedical summarization",
+    "citation network",
+    "knowledge aggregation",
+    "abstractive summarization",
+    "pre-trained language models",
+    "BioCiteDB"
+   ],
+   "field": "生物医学自然语言处理",
+   "innovations": [
+    "提出基于注意力机制的引文知识聚合框架，动态融合多篇引用文献摘要特征",
+    "构建并发布大规模生物医学引用增强摘要数据集BioCiteDB（>10,000篇）",
+    "实证表明外部引用知识可显著提升模型对领域术语与写作风格的捕获能力"
+   ],
+   "benchmarks": [
+    "BioCiteDB",
+    "ROUGE",
+    "BERTScore",
+    "BartScore",
+    "Flesch-Kincaid"
+   ]
+  }
+ }
 }

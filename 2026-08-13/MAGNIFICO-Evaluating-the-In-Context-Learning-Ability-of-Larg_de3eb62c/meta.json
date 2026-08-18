@@ -4,5 +4,30 @@
  "title": "MAGNIFICO-Evaluating-the-In-Context-Learning-Ability-of-Larg",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:11:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4984cba4-7aa4-4603-b8ed-ac9d8cc47cba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4984cba4-7aa4-4603-b8ed-ac9d8cc47cba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:50:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "in-context learning",
+    "novel interpretation",
+    "compositional generalization",
+    "text-to-SQL",
+    "MAGNIFICO",
+    "large language models"
+   ],
+   "field": "大语言模型的上下文学习与组合泛化",
+   "innovations": [
+    "提出MAGNIFICO评测套件，系统评估LLMs在text-to-SQL中通过ICL学习新颖解释的能力",
+    "设计plausible/foreign/adversarial三层次形式类型，揭示LLMs的语义偏向",
+    "发现指令微调显著提升ICL新解释学习能力，并揭示近因偏差与多解释组合瓶颈"
+   ],
+   "benchmarks": [
+    "MAGNIFICO",
+    "Spider"
+   ]
+  }
+ }
 }

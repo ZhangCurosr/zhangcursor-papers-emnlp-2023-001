@@ -4,5 +4,36 @@
  "title": "Does-the-Correctness-of-Factual-Knowledge-Matter-for-Factual",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d7b57b34-a628-4c78-8fd3-ad21d74f9f3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d7b57b34-a628-4c78-8fd3-ad21d74f9f3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:46:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "事实知识注入",
+    "反事实分析",
+    "预训练语言模型",
+    "知识增强",
+    "因果推断",
+    "预训练-微调"
+   ],
+   "field": "知识增强的预训练语言模型",
+   "innovations": [
+    "提出基于反事实扰动的知识注入因果分析框架",
+    "发现事实知识正确性对下游性能影响极其有限",
+    "区分事实替换与本体替换两类扰动策略"
+   ],
+   "benchmarks": [
+    "LAMA",
+    "GLUE",
+    "CONLL2003",
+    "ACE2004/2005",
+    "FewRel",
+    "TACRED",
+    "Natural Questions",
+    "FEVER"
+   ]
+  }
+ }
 }

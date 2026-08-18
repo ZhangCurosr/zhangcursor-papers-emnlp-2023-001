@@ -4,5 +4,31 @@
  "title": "Learning-Language-guided-Adaptive-Hyper-modality-Representat",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:12:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73f68020-b5ca-4932-b498-b1d9c7c3bc1f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/73f68020-b5ca-4932-b498-b1d9c7c3bc1f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:49:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态情感分析",
+    "跨模态融合",
+    "Transformer",
+    "超模态学习",
+    "噪声抑制",
+    "多尺度特征"
+   ],
+   "field": "多模态情感分析",
+   "innovations": [
+    "首次用多尺度语言特征引导视觉/音频学习去噪超模态表示",
+    "设计AHL模块显式抑制辅助模态情感无关与冲突信息",
+    "单向交叉注意力融合：语言为query、超模态为key/value"
+   ],
+   "benchmarks": [
+    "MOSI",
+    "MOSEI",
+    "CH-SIMS"
+   ]
+  }
+ }
 }

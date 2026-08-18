@@ -4,5 +4,32 @@
  "title": "MEMECAP-A-Dataset-for-Captioning-and-Interpreting-Memes",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e633994d-43e0-461a-abc3-881ee39b446e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e633994d-43e0-461a-abc3-881ee39b446e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:50:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "meme captioning",
+    "visual metaphor",
+    "vision-language models",
+    "multimodal understanding",
+    "dataset"
+   ],
+   "field": "多模态理解与视觉隐喻",
+   "innovations": [
+    "提出梗图 captioning 任务及首个专用数据集 MEMECAP",
+    "系统性基准测试显示 SOTA VL 模型在视觉隐喻理解上远逊于人类",
+    "发现 CoT 隐喻显式提示在生成任务中未必有效，揭示图文依赖差异"
+   ],
+   "benchmarks": [
+    "MEMECAP",
+    "BLEU-4",
+    "ROUGE-L",
+    "BERTScore",
+    "Human Evaluation (Correctness/Completeness/Faithfulness)"
+   ]
+  }
+ }
 }

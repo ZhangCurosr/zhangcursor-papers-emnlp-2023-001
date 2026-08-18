@@ -4,5 +4,30 @@
  "title": "Knowledge-Graph-Compression-Enhances-Diverse-Commonsense-Gen",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9be285ce-6508-4102-8e14-9c6a194da77c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9be285ce-6508-4102-8e14-9c6a194da77c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:48:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱压缩",
+    "常识生成",
+    "最优传输",
+    "混合专家",
+    "多样性生成",
+    "知识增强NLP"
+   ],
+   "field": "知识图谱增强的自然语言生成",
+   "innovations": [
+    "自注意力+最优传输的可微分知识图谱压缩方法",
+    "任务自适应的节点选择与冗余知识去除",
+    "压缩KG增强MoE在常识解释生成上超越大语言模型"
+   ],
+   "benchmarks": [
+    "ComVE",
+    "α-NLG"
+   ]
+  }
+ }
 }

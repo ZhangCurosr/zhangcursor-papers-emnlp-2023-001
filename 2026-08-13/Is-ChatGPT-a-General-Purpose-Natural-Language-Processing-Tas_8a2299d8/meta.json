@@ -4,5 +4,35 @@
  "title": "Is-ChatGPT-a-General-Purpose-Natural-Language-Processing-Tas",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 07:11:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6054e71f-7c20-42e0-8e56-1bef5cfc88f8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6054e71f-7c20-42e0-8e56-1bef5cfc88f8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:47:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "zero-shot learning",
+    "ChatGPT",
+    "chain-of-thought",
+    "RLHF",
+    "NLP benchmarking",
+    "large language models"
+   ],
+   "field": "大语言模型能力评估",
+   "innovations": [
+    "首次系统评估ChatGPT在20个NLP数据集上的零样本能力",
+    "揭示RLHF训练对推理任务与序列标注任务的非对称影响",
+    "验证zero-shot-CoT在不同推理类型中的效果差异"
+   ],
+   "benchmarks": [
+    "MultiArith",
+    "GSM8K",
+    "CoNLL03",
+    "SST2",
+    "SAMSum",
+    "RTE",
+    "BoolQ"
+   ]
+  }
+ }
 }

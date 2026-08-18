@@ -4,5 +4,32 @@
  "title": "Let-s-Think-Frame-by-Frame-with-VIP-A-Video-Infilling-and-Pr",
  "token": "sk-qKu2Cn1y4...",
  "created_at": "2026-08-13 14:54:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5842bcbc-baab-466d-95c9-1ff0de63efda.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5842bcbc-baab-466d-95c9-1ff0de63efda.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:49:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频推理",
+    "关键帧提取",
+    "链式思维",
+    "多模态理解",
+    "视频补全",
+    "视频预测"
+   ],
+   "field": "视频理解与多模态推理",
+   "innovations": [
+    "提出VIP数据集，首次评估语言模型在视频链式思维上的多跳多帧推理能力",
+    "设计FAMOuS结构化场景描述，将关键帧分解为Focus/Action/Mood/Objects/Setting五个维度",
+    "提出Video Infilling和Video Prediction两个任务，类比MLM和next-token prediction评估视频推理"
+   ],
+   "benchmarks": [
+    "VIP",
+    "YouTube-8M",
+    "MSR-VTT",
+    "VidIL"
+   ]
+  }
+ }
 }

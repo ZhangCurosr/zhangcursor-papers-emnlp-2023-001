@@ -4,5 +4,30 @@
  "title": "Oolong-Investigating-What-Makes-Transfer-Learning-Hard-with",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e7a9fe9c-1a11-465f-803b-0f25532325e9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e7a9fe9c-1a11-465f-803b-0f25532325e9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:51:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "跨语言迁移",
+    "控制变量实验",
+    "词嵌入对齐",
+    "句法变化",
+    "语言模型",
+    "低资源NLP"
+   ],
+   "field": "跨语言自然语言处理",
+   "innovations": [
+    "提出t-English控制变量迁移研究范式，分离句法/词汇/词表影响",
+    "发现嵌入矩阵重初始化是跨语言迁移的最大瓶颈且无法通过少量继续预训练恢复",
+    "验证句法适应性强于词汇对齐需求，词表质量仅为次要因素"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "XNLI"
+   ]
+  }
+ }
 }

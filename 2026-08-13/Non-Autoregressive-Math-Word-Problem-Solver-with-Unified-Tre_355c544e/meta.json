@@ -4,5 +4,30 @@
  "title": "Non-Autoregressive-Math-Word-Problem-Solver-with-Unified-Tre",
  "token": "sk-9BdnpHblK...",
  "created_at": "2026-08-13 07:12:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/106c0c0c-cdc3-4633-b2c8-2fc33a0c96d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/106c0c0c-cdc3-4633-b2c8-2fc33a0c96d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:51:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数学应用题求解",
+    "非自回归解码",
+    "MTree",
+    "跨目标注意力",
+    "结构化生成",
+    "表达式统一"
+   ],
+   "field": "数学应用题求解与自然语言推理",
+   "innovations": [
+    "基于统一MTree结构的非自回归目标驱动求解器MWP-NAS，消除表达式变体多样性",
+    "设计跨目标注意力机制促进同级子目标间信息交互与协调分解",
+    "提出MTree Acc与MTree IoU两种评估指标，有效衡量等价变体与部分正确性"
+   ],
+   "benchmarks": [
+    "Math23K",
+    "MAWPS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,36 @@
  "title": "Interpreting-Embedding-Spaces-by-Conceptualization",
  "token": "sk-jIjWdfVgv...",
  "created_at": "2026-08-13 07:11:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/245488ae-73c1-4b4c-80c2-c487e2399b27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/245488ae-73c1-4b4c-80c2-c487e2399b27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:47:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "嵌入可解释性",
+    "概念空间",
+    "大语言模型",
+    "后处理方法",
+    "知识图谱",
+    "语义保真"
+   ],
+   "field": "LLM 可解释性",
+   "innovations": [
+    "提出 CES 黑盒映射算法将隐嵌入转为概念向量",
+    "按需动态细化算法实现自适应粒度概念空间",
+    "新型人机联合评估协议测量语义保真度"
+   ],
+   "benchmarks": [
+    "AG News",
+    "BBC News",
+    "DBpedia 14",
+    "Yahoo",
+    "20 Newsgroup",
+    "Ohsumed",
+    "R8",
+    "Wikipedia Triplet"
+   ]
+  }
+ }
 }

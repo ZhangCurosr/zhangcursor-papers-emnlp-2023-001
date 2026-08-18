@@ -4,5 +4,31 @@
  "title": "Mitigating-Backdoor-Poisoning-Attacks-through-the-Lens-of-Sp",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 07:10:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8bc02566-7cae-46b3-81fa-c1aa42d3cb19.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8bc02566-7cae-46b3-81fa-c1aa42d3cb19.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:51:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "backdoor poisoning",
+    "spurious correlation",
+    "z-score",
+    "textual backdoor defense",
+    "data poisoning mitigation"
+   ],
+   "field": "NLP安全与鲁棒性",
+   "innovations": [
+    "首次将后门中毒攻击建模为虚假相关现象，提出z-score统计检测框架",
+    "无需外部模型和干净验证集的轻量级无模型防御（Z-TOKEN/Z-TREE/Z-SEQ）",
+    "双特征（词汇+句法）联合过滤显著提升对Syntactic等复杂攻击的检测能力"
+   ],
+   "benchmarks": [
+    "SST-2",
+    "OLID",
+    "AG News",
+    "QNLI"
+   ]
+  }
+ }
 }

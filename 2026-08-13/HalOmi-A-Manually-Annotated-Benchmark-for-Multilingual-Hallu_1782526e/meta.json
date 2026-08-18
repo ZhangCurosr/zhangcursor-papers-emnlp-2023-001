@@ -4,5 +4,30 @@
  "title": "HalOmi-A-Manually-Annotated-Benchmark-for-Multilingual-Hallu",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:12:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/21f9bb26-355b-4c9b-95ac-e190fbb4c21c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/21f9bb26-355b-4c9b-95ac-e190fbb4c21c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:47:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译幻觉检测",
+    "漏译检测",
+    "多语言评估基准",
+    "内部检测方法",
+    "词级病理标注",
+    "NLLB-200",
+    "ALTI"
+   ],
+   "field": "机器翻译质量评估与病理解析",
+   "innovations": [
+    "首个覆盖18个多资源方向的多语言幻觉/漏译句级+词级人工标注数据集",
+    "证明基于单语言对结论不可泛化，揭示低资源场景内部方法优于外部方法",
+    "提出词级幻觉/漏译检测任务及基于ALTI/log-prob组合的基线"
+   ],
+   "benchmarks": [
+    "HalOmi"
+   ]
+  }
+ }
 }

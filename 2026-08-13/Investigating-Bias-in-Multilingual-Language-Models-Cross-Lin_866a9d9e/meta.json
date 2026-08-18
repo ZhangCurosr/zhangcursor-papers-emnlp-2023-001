@@ -4,5 +4,29 @@
  "title": "Investigating-Bias-in-Multilingual-Language-Models-Cross-Lin",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5e01616e-22d0-45b5-8b15-5e1c9fdcc847.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5e01616e-22d0-45b5-8b15-5e1c9fdcc847.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:47:49",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multilingual debiasing",
+    "cross-lingual transfer",
+    "mBERT",
+    "CrowS-Pairs",
+    "sentence debiasing",
+    "bias mitigation"
+   ],
+   "field": "多语言模型公平性与偏见缓解",
+   "innovations": [
+    "首次系统评估五种SOTA去偏见技术在mBERT中的跨语言迁移效果",
+    "发现SentenceDebias为跨语言去偏见最优技术（平均降低13%偏见）",
+    "提出含预训练步骤的去偏见技术应在资源最少语言上执行的策略"
+   ],
+   "benchmarks": [
+    "CrowS-Pairs"
+   ]
+  }
+ }
 }

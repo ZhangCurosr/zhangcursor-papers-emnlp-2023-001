@@ -4,5 +4,34 @@
  "title": "GPTAraEval-A-Comprehensive-Evaluation-of-ChatGPT-on-Arabic-N",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 07:12:45",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98bda0fb-172f-4db5-b0c3-8de08a5b9fde.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/98bda0fb-172f-4db5-b0c3-8de08a5b9fde.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:46:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ChatGPT评估",
+    "阿拉伯语NLP",
+    "方言阿拉伯语",
+    "多语言大模型",
+    "ORCA基准",
+    "代码切换翻译"
+   ],
+   "field": "多语言自然语言处理",
+   "innovations": [
+    "首次大规模系统化评估ChatGPT在44个阿拉伯语NLP任务上的性能",
+    "系统比较ChatGPT与GPT-4在现代标准阿拉伯语和方言上的能力差异",
+    "验证GPT-4作为阿拉伯语NLP人工评估替代的可行性（71.5%一致性）"
+   ],
+   "benchmarks": [
+    "ORCA",
+    "MDPC",
+    "XNLI",
+    "TaPaCo",
+    "QALB 2014",
+    "ANETAC"
+   ]
+  }
+ }
 }

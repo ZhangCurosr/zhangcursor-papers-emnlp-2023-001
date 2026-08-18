@@ -4,5 +4,34 @@
  "title": "Outlier-Suppression-Accurate-quantization-of-large-language",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bc781ee8-1221-46b4-8344-2e207bb964ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/bc781ee8-1221-46b4-8344-2e207bb964ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:52:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "post-training quantization",
+    "outlier suppression",
+    "large language models",
+    "channel-wise shifting",
+    "equivalent transformation",
+    "low-bit quantization"
+   ],
+   "field": "模型压缩与量化",
+   "innovations": [
+    "发现outliers通道间不对称性并提出channel-wise shifting消除偏斜",
+    "设计基于输出变化MSE的scaling优化目标与阈值网格搜索",
+    "统一迁移模式将shifting/scaling等价融合到后续模块无推理开销"
+   ],
+   "benchmarks": [
+    "GLUE",
+    "PIQA",
+    "Winogrande",
+    "HellaSwag",
+    "LAMBADA",
+    "WikiText2"
+   ]
+  }
+ }
 }

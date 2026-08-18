@@ -4,5 +4,30 @@
  "title": "NAIL-Lexical-Retrieval-Indices-with-Efficient-Non-Autoregres",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c22102a5-734c-485b-ba61-7c921a505877.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c22102a5-734c-485b-ba61-7c921a505877.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:51:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "非自回归解码",
+    "稀疏检索",
+    "神经重排序",
+    "预训练语言模型",
+    "BM25",
+    "BEIR"
+   ],
+   "field": "信息检索与检索增强生成",
+   "innovations": [
+    "将预训练LLM的非自回归解码器用于文档全词表分数预计算，实现查询侧零神经推理",
+    "两阶段自监督预训练（逆完形填空+独立裁剪）校准LLM概率至检索适用的token权重",
+    "BM25+NAIL组合在零样本BEIR上匹配最强双编码器性能但查询侧仅需10^-4%推理FLOPS"
+   ],
+   "benchmarks": [
+    "BEIR",
+    "MS-MARCO Passage Ranking"
+   ]
+  }
+ }
 }

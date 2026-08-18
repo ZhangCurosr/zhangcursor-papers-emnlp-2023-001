@@ -4,5 +4,32 @@
  "title": "Optimizing-Retrieval-augmented-Reader-Models-via-Token-Elimi",
  "token": "sk-xfpcKPjW4...",
  "created_at": "2026-08-13 07:11:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cddddc93-edf6-4764-bc6f-dfc2fd9c39b5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/cddddc93-edf6-4764-bc6f-dfc2fd9c39b5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:52:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "retrieval-augmented generation",
+    "token filtering",
+    "decoder efficiency",
+    "long-form question answering",
+    "FiD",
+    "cross-attention",
+    "inference optimization"
+   ],
+   "field": "检索增强语言模型效率优化",
+   "innovations": [
+    "提出基于 cross-attention 分数的 Token Filtering 方法，在解码阶段动态剔除冗余输入 token",
+    "首次系统性分析 FiD 在长输出场景下 decoder 延迟占比高达 95%+，并提出 token 过滤与 layer skipping 的组合优化",
+    "在 MS MARCO 上实现 62.2% 延迟降低且性能下降不超过 2%，达到 ELI5 KILT 榜单 SOTA"
+   ],
+   "benchmarks": [
+    "ELI5",
+    "MS MARCO Passage Ranking",
+    "Natural Questions"
+   ]
+  }
+ }
 }

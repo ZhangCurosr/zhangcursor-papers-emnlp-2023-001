@@ -4,5 +4,31 @@
  "title": "Language-and-Mental-Health-Measures-of-Emotion-Dynamics-from",
  "token": "sk-Tq65tdoLK...",
  "created_at": "2026-08-13 07:12:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d84763be-366c-45f8-82a2-b88f3799f467.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d84763be-366c-45f8-82a2-b88f3799f467.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:49:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Utterance Emotion Dynamics",
+    "mental health",
+    "biological-social markers",
+    "Twitter text analysis",
+    "valence arousal dominance",
+    "Welch's ANOVA",
+    "NRC VAD lexicon"
+   ],
+   "field": "计算精神健康分析",
+   "innovations": [
+    "首次系统验证UED指标作为多种心理疾病生物社会标记物的可行性",
+    "证明优势度维度在所有 studied MHCs 中均显著区别于健康对照",
+    "通过社交媒体流行度分层分析验证UED指标的稳健性"
+   ],
+   "benchmarks": [
+    "Twitter-STMHD",
+    "Reddit eRisk 2018"
+   ]
+  }
+ }
 }

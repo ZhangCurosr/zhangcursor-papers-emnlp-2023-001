@@ -4,5 +4,29 @@
  "title": "LLM-FP4-4-Bit-Floating-Point-Quantized-Transformers",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-08-13 07:12:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03da19b4-133d-4e86-8614-dd8f81dcd1a4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/03da19b4-133d-4e86-8614-dd8f81dcd1a4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:48:46",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "浮点量化",
+    "后训练量化",
+    "LLM压缩",
+    "4-bit量化",
+    "Transformer"
+   ],
+   "field": "模型压缩与量化",
+   "innovations": [
+    "基于搜索的FPQ baseline联合优化指数格式与裁剪范围",
+    "预移位指数偏置将per-channel激活缩放重参数化为权重指数偏置"
+   ],
+   "benchmarks": [
+    "LLaMA零样本推理",
+    "GLUE",
+    "ImageNet"
+   ]
+  }
+ }
 }

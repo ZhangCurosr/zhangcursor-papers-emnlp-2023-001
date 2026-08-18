@@ -4,5 +4,32 @@
  "title": "Don-t-Get-Too-Technical-with-Me-A-Discourse-Structure-Based",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 07:11:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/003f8095-99dd-42d0-a177-3b07c707a082.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/003f8095-99dd-42d0-a177-3b07c707a082.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:46:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "科学新闻生成",
+    "话语结构",
+    "内容规划",
+    "风格迁移",
+    "低资源摘要"
+   ],
+   "field": "学术文本简化与新闻生成",
+   "innovations": [
+    "提出结合元数据与discourse rhetoric role的两阶段BART生成框架",
+    "构建多领域公开科学新闻数据集SCITECHNEWS",
+    "验证结构化内容规划可显著提升新闻风格可读性与信息丰富度"
+   ],
+   "benchmarks": [
+    "SCITECHNEWS",
+    "PLOS Lay Summarisation",
+    "eLife Lay Summarisation",
+    "ARXIV",
+    "CNN/DailyMail"
+   ]
+  }
+ }
 }

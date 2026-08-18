@@ -4,5 +4,29 @@
  "title": "Learning-Retrieval-Augmentation-for-Personalized-Dialogue-Ge",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9dab4368-f285-4305-9df7-53ee5bf7eb3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9dab4368-f285-4305-9df7-53ee5bf7eb3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:49:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "个性化对话生成",
+    "检索增强生成",
+    "检索器学习",
+    "非可微优化",
+    "对话系统"
+   ],
+   "field": "个性化对话生成",
+   "innovations": [
+    "使用非可微生成指标（如BLEU）直接优化检索器",
+    "提出检索候选扩充策略提升检索多样性",
+    "端到端联合训练检索器与生成器的两阶段框架"
+   ],
+   "benchmarks": [
+    "CONVAI2",
+    "ROCStory"
+   ]
+  }
+ }
 }

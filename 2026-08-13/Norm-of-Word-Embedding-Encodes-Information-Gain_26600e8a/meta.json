@@ -4,5 +4,10 @@
  "title": "Norm-of-Word-Embedding-Encodes-Information-Gain",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-08-13 07:11:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/717856b0-4dc4-4c34-bc41-e276c78daf66.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/717856b0-4dc4-4c34-bc41-e276c78daf66.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:51:29",
+  "chunks": 1
+ }
 }

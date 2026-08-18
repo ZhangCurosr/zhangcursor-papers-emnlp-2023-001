@@ -4,5 +4,31 @@
  "title": "Location-Aware-Visual-Question-Generation-with-Lightweight-M",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-08-13 07:11:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d2e012b-7bed-4ff7-b370-f4f927874894.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1d2e012b-7bed-4ff7-b370-f4f927874894.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:50:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉问题生成",
+    "位置感知",
+    "轻量级模型",
+    "知识蒸馏",
+    "车载智能助手",
+    "大语言模型"
+   ],
+   "field": "视觉-语言生成",
+   "innovations": [
+    "提出LocaVQG新任务，融合GPS与街景图像生成位置相关引人入胜问题",
+    "设计GPT-4驱动的自动化数据集生成管道+BERT分类器过滤 pipeline",
+    "FDT5结合蒸馏与推理过滤，15M参数模型超越所有轻量基线"
+   ],
+   "benchmarks": [
+    "LocaVQG (自建)",
+    "MVQG",
+    "SQuaD"
+   ]
+  }
+ }
 }

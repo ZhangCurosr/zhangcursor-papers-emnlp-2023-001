@@ -4,5 +4,32 @@
  "title": "Multitask-Multimodal-Prompted-Training-for-Interactive-Embod",
  "token": "sk-zybFjYcVd...",
  "created_at": "2026-08-13 07:12:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b4ff7f94-8241-4e49-891a-3edb484ec245.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b4ff7f94-8241-4e49-891a-3edb484ec245.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:50:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied AI",
+    "vision-language pretraining",
+    "multimodal prompting",
+    "interactive task completion",
+    "dialog clarification"
+   ],
+   "field": "交互体素任务中的多模态语言 grounding",
+   "innovations": [
+    "统一多任务文本生成框架将CR/AE/VG整合于单一EMMA模型",
+    "sentinel token机制实现跨帧跨物体引用消歧",
+    "视觉+轨迹双阶段数据增强策略缓解长尾分布与时序关联学习"
+   ],
+   "benchmarks": [
+    "DTC (Alexa Arena)",
+    "MS-COCO Captioning",
+    "VQA-v2",
+    "RefCOCOg",
+    "NLVR²"
+   ]
+  }
+ }
 }

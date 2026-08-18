@@ -4,5 +4,10 @@
  "title": "Instructed-Language-Models-with-Retrievers-Are-Powerful-Enti",
  "token": "sk-0vgcClVqT...",
  "created_at": "2026-08-13 07:12:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b833f14b-c09a-423c-9070-3467c7e0a3ff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b833f14b-c09a-423c-9070-3467c7e0a3ff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:48:15",
+  "chunks": 1
+ }
 }

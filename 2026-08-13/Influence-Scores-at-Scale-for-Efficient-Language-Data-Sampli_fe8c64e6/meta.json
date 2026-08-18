@@ -4,5 +4,31 @@
  "title": "Influence-Scores-at-Scale-for-Efficient-Language-Data-Sampli",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49510cd5-d454-43d3-8345-b663d3243d82.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/49510cd5-d454-43d3-8345-b663d3243d82.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:47:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "influence scores",
+    "data pruning",
+    "variance of gradients",
+    "language model",
+    "data sampling",
+    "NLU",
+    "data efficiency"
+   ],
+   "field": "语言模型数据效率",
+   "innovations": [
+    "系统benchmark 5种影响分数在语言任务的剪枝效果，确立VoG为最优one-shot方案",
+    "在商业NLU系统验证VoG可削减50%数据而不退化性能",
+    "揭示归一化策略（dataset vs. class）对多域不平衡数据的决定性影响"
+   ],
+   "benchmarks": [
+    "SNLI",
+    "internal Alexa NLU system"
+   ]
+  }
+ }
 }

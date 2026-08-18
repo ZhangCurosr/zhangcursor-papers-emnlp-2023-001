@@ -4,5 +4,35 @@
  "title": "PEFTDebias-Capturing-debiasing-information-using-PEFTs",
  "token": "sk-0a1o6nr9t...",
  "created_at": "2026-08-13 07:11:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d2d234f-4993-4756-8feb-06b9aa0fb431.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/9d2d234f-4993-4756-8feb-06b9aa0fb431.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 16:51:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "去偏见",
+    "参数高效微调",
+    "PEFT",
+    "性别偏见",
+    "种族偏见",
+    "基础模型",
+    "Counterfactual Data Augmentation"
+   ],
+   "field": "自然语言处理中的公平性与偏见缓解",
+   "innovations": [
+    "提出 PEFTDebias 两阶段框架，上游学习去偏 PEFT 参数、下游冻结保留去偏信息",
+    "系统比较 Adapters/Prompt Tuning/LoRA/SFT 在偏见轴上的去偏效果，发现 Prompt Tuning 最优",
+    "验证去偏参数的跨数据集迁移能力，证明 task-agnostic 轴去偏的有效性"
+   ],
+   "benchmarks": [
+    "BiasBios",
+    "GHC",
+    "MNLI",
+    "LHC",
+    "StereoSet",
+    "CrowS-Pairs"
+   ]
+  }
+ }
 }
