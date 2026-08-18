@@ -4,5 +4,34 @@
  "title": "PROSE-A-Pronoun-Omission-Solution-for-Chinese-English-Spoken",
  "token": "sk-nY8L7ieIq...",
  "created_at": "2026-08-13 14:56:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fe8d3f1-c29f-458d-a06c-65ec6a172f8c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7fe8d3f1-c29f-458d-a06c-65ec6a172f8c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:29:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译",
+    "代词省略",
+    "中文-英语翻译",
+    "数据增强",
+    "提及感知学习",
+    "口语翻译"
+   ],
+   "field": "低资源机器翻译",
+   "innovations": [
+    "构建首个多文体口语级代词省略数据集PROSE",
+    "提出提及感知语义增强方法联合对比学习与Mixup插值",
+    "在少标注口语数据上显著提升代词恢复与翻译质量"
+   ],
+   "benchmarks": [
+    "PROSE-Talk",
+    "PROSE-Drama",
+    "PROSE-Movie",
+    "PROSE-Vlog",
+    "AIChallenger",
+    "CWMT2018"
+   ]
+  }
+ }
 }

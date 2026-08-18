@@ -4,5 +4,34 @@
  "title": "The-Framework-Tax-Disparities-Between-Inference-Efficiency-i",
  "token": "sk-45Ifw5Iq3...",
  "created_at": "2026-08-13 14:56:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4d52d6e0-7968-4b16-b17a-8d50e26b1324.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4d52d6e0-7968-4b16-b17a-8d50e26b1324.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:32:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "inference efficiency",
+    "framework overhead",
+    "latency optimization",
+    "deep learning frameworks",
+    "NLP deployment",
+    "computational efficiency"
+   ],
+   "field": "NLP系统效率优化",
+   "innovations": [
+    "提出框架税概念揭示硬件/模型效率提升未能转化为延迟改善的根源",
+    "证明小batch推理下增加model width不增加延迟的设计自由度",
+    "系统对比eager/JIT/AoT三种框架范式在NLP推理中的实际延迟差异"
+   ],
+   "benchmarks": [
+    "MLPerf Inference",
+    "BERT-Base",
+    "ResNet-50",
+    "Funnel Transformer",
+    "SqueezeBERT",
+    "MobileBERT"
+   ]
+  }
+ }
 }

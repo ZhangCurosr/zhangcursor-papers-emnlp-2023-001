@@ -4,5 +4,32 @@
  "title": "Symbol-tuning-improves-in-context-learning-in-language-model",
  "token": "sk-4GZLsbGFG...",
  "created_at": "2026-08-13 14:54:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/25e6e61e-595a-43f9-95b4-074f48679679.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/25e6e61e-595a-43f9-95b4-074f48679679.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:31:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "in-context learning",
+    "symbol tuning",
+    "instruction tuning",
+    "algorithmic reasoning",
+    "flipped labels",
+    "language model finetuning"
+   ],
+   "field": "大语言模型上下文学习与微调",
+   "innovations": [
+    "提出符号调优方法，通过将自然语言标签替换为任意符号强制模型从上下文示例中学习输入-标签映射",
+    "证明仅用自然语言数据微调即可提升算法推理能力，且小模型经调优后可匹敌大模型基线",
+    "揭示符号调优可恢复指令微调中丧失的跟随翻转标签能力"
+   ],
+   "benchmarks": [
+    "BIG-Bench List Functions",
+    "BIG-Bench Simple Turing Concepts",
+    "11 NLP ICL Datasets (SUBJ/TEH/TEAB/TEAT/TEFE/TEHI/ADEC/OR/SOT/TOS/TC)",
+    "Flipped Labels Evaluation"
+   ]
+  }
+ }
 }

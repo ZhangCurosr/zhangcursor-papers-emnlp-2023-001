@@ -4,5 +4,30 @@
  "title": "Revisiting-the-Optimality-of-Word-Lengths",
  "token": "sk-NnOQ8YDzm...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/88336413-2066-4c12-963d-443ecbf53972.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/88336413-2066-4c12-963d-443ecbf53972.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:30:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "词长缩写定律",
+    "Zipf假说",
+    "信道容量假设",
+    "surprisal",
+    "词汇化问题",
+    "语言效率",
+    "通信优化"
+   ],
+   "field": "语言信息论与计算语言学",
+   "innovations": [
+    "统一框架下严格推导ZIPF/CCH/CCH↓三种词长假说，揭示Piantadosi推导优化的是下界",
+    "提出CCH改进公式：词长正比于期望surprisal加方差/均值比",
+    "跨13种语言实证证明ZIPF频率假说是词长最强预测因子"
+   ],
+   "benchmarks": [
+    "Wiki40B 13种语言"
+   ]
+  }
+ }
 }

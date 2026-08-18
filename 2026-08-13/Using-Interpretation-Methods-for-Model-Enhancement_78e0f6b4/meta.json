@@ -4,5 +4,32 @@
  "title": "Using-Interpretation-Methods-for-Model-Enhancement",
  "token": "sk-AsgiqoBdE...",
  "created_at": "2026-08-13 14:54:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b4a5d92a-b36d-4e83-a221-dfbf2a3fac28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b4a5d92a-b36d-4e83-a221-dfbf2a3fac28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:34:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "模型解释",
+    "rationale增强",
+    "低资源NLP",
+    "Input Marginalization",
+    "DiffMask",
+    "对比损失",
+    "可解释深度学习"
+   ],
+   "field": "可解释NLP / 低资源语言理解",
+   "innovations": [
+    "提出通用框架UIMER统一整合多种解释方法通过gold rationale增强模型",
+    "首次将Input Marginalization和DiffMask用于模型增强并设计对比损失与交替训练策略",
+    "在IC/SF/NLI三任务多低资源设定下系统验证，证明新方法在低资源下显著优于梯度类方法"
+   ],
+   "benchmarks": [
+    "SNIPS Intent Classification",
+    "SNIPS Slot Filling",
+    "e-SNLI Natural Language Inference"
+   ]
+  }
+ }
 }

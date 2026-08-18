@@ -4,5 +4,32 @@
  "title": "Once-is-Enough-A-Lightweight-Cross-Attention-for-Fast-Senten",
  "token": "sk-RsHYrwqhL...",
  "created_at": "2026-08-13 07:12:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f04b2059-020f-4c3a-929f-43932a00c656.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f04b2059-020f-4c3a-929f-43932a00c656.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:29:36",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sentence pair modeling",
+    "cross-attention",
+    "efficient inference",
+    "dual-encoder",
+    "late interaction",
+    "retrieval"
+   ],
+   "field": "高效句子对表示学习",
+   "innovations": [
+    "提出MixEncoder轻量交叉注意力机制，query仅编码一次、候选预计算为k个context embeddings实现并行推理",
+    "设计双路表征E与H配合Gate融合，在保持跨语义交互的同时将在线推理加速113倍",
+    "提出S-strategy与C-strategy两种候选预计算策略，平衡表达力与内存开销"
+   ],
+   "benchmarks": [
+    "MNLI",
+    "Ubuntu V2",
+    "DSTC7",
+    "MS MARCO Passage Reranking"
+   ]
+  }
+ }
 }

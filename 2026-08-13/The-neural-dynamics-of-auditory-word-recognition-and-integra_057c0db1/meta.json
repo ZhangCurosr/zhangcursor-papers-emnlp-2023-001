@@ -4,5 +4,30 @@
  "title": "The-neural-dynamics-of-auditory-word-recognition-and-integra",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5109bc76-62d8-4c70-bcee-03f96472fadb.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/5109bc76-62d8-4c70-bcee-03f96472fadb.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:32:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "auditory word recognition",
+    "EEG",
+    "N400",
+    "temporal receptive field",
+    "surprisal",
+    "Bayesian word recognition",
+    "language comprehension"
+   ],
+   "field": "计算精神语言学/神经语言处理",
+   "innovations": [
+    "联合认知-神经TRF框架，将贝叶斯词识别动态嵌入EEG解码并联合优化",
+    "系统区分识别动态对整合时序onset与响应幅度response properties的独立影响",
+    "发现晚期识别词N400幅度显著放大但潜伏期不变，支持识别-整合解耦的两部分模型"
+   ],
+   "benchmarks": [
+    "Heilbron et al. (2022) EEG故事聆听数据集"
+   ]
+  }
+ }
 }

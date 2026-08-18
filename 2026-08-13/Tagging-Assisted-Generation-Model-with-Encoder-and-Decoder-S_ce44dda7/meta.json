@@ -4,5 +4,35 @@
  "title": "Tagging-Assisted-Generation-Model-with-Encoder-and-Decoder-S",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0dae41bf-9f99-4d8c-a301-859a3ce0aa2c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0dae41bf-9f99-4d8c-a301-859a3ce0aa2c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:31:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "ASTE",
+    "aspect sentiment triplet extraction",
+    "text generation",
+    "sequence tagging",
+    "semantic alignment",
+    "sentiment analysis",
+    "multi-task learning"
+   ],
+   "field": "方面级情感分析",
+   "innovations": [
+    "提出EGST模块通过序列标注多任务学习、Tag Attention引导生成和推理优化三个层面增强生成模型",
+    "提出LDSA模块通过标签自解码获取语义表示并对齐解码器隐状态实现细粒度语义监督",
+    "在四个ASTE基准及AOPE/UABSA子任务上均达到SOTA性能"
+   ],
+   "benchmarks": [
+    "14Res",
+    "14Lap",
+    "15Res",
+    "16Res",
+    "AOPE",
+    "UABSA"
+   ]
+  }
+ }
 }

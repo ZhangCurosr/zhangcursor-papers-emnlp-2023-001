@@ -4,5 +4,31 @@
  "title": "Sparse-Universal-Transformer",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-08-13 14:54:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4c7ffee-72e2-4b44-8f0f-bacf1874890b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f4c7ffee-72e2-4b44-8f0f-bacf1874890b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:31:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Universal Transformer",
+    "Sparse Mixture of Experts",
+    "Compositional Generalization",
+    "Dynamic Halting",
+    "Stick-breaking",
+    "Neural Machine Translation"
+   ],
+   "field": "高效 Transformer 架构与组合泛化",
+   "innovations": [
+    "将 SMoE 引入 Universal Transformer 实现参数效率与计算复杂度的解耦",
+    "提出基于 stick-breaking 的概率化动态停止机制与期望停止状态",
+    "支持推理后调阈值的计算-性能连续折衷接口"
+   ],
+   "benchmarks": [
+    "WMT'14 En-De",
+    "CFQ",
+    "Logical Inference"
+   ]
+  }
+ }
 }

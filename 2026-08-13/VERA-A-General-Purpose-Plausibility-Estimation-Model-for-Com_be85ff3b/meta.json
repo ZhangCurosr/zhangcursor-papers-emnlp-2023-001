@@ -4,5 +4,36 @@
  "title": "VERA-A-General-Purpose-Plausibility-Estimation-Model-for-Com",
  "token": "sk-JdJPQj6CY...",
  "created_at": "2026-08-13 14:54:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6575532a-5b69-4102-adba-991fd049437f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6575532a-5b69-4102-adba-991fd049437f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:35:11",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "commonsense verification",
+    "plausibility estimation",
+    "contrastive learning",
+    "language model calibration",
+    "knowledge filtering"
+   ],
+   "field": "常识推理与语言模型验证",
+   "innovations": [
+    "三目标联合训练（二元分类+多类别+监督对比）提升细粒度常识区分与泛化",
+    "两阶段训练（KB 大规模噪声数据→QA 高质量数据）实现广度与精度兼顾",
+    "LM 增强虚假语句构造与后验温度校准相结合提供可校准的连续可塑性分数"
+   ],
+   "benchmarks": [
+    "CommonsenseQA",
+    "PIQA",
+    "SIQA",
+    "Winogrande",
+    "HellaSwag",
+    "StrategyQA",
+    "CREAK",
+    "SKD_anno",
+    "I2D2_anno"
+   ]
+  }
+ }
 }

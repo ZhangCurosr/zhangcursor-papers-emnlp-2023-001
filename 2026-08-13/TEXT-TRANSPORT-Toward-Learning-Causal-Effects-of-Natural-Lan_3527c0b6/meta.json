@@ -4,5 +4,10 @@
  "title": "TEXT-TRANSPORT-Toward-Learning-Causal-Effects-of-Natural-Lan",
  "token": "sk-rnwM2rvcl...",
  "created_at": "2026-08-13 14:54:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0116f34e-610b-419e-9c4a-7a0b517b8e3a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/0116f34e-610b-419e-9c4a-7a0b517b8e3a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:31:55",
+  "chunks": 1
+ }
 }

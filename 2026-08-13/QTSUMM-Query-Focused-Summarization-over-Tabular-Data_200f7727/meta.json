@@ -4,5 +4,30 @@
  "title": "QTSUMM-Query-Focused-Summarization-over-Tabular-Data",
  "token": "sk-4LF0lBYcu...",
  "created_at": "2026-08-13 14:54:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/202eccf2-8684-4938-a264-3f0e332870ec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/202eccf2-8684-4938-a264-3f0e332870ec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:29:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "query-focused summarization",
+    "table-to-text generation",
+    "tabular data reasoning",
+    "QTSUMM",
+    "REFACTOR",
+    "large language models",
+    "faithful generation"
+   ],
+   "field": "表格理解与自然语言生成",
+   "innovations": [
+    "定义查询聚焦表格摘要新任务并构建QTSUMM大规模人工标注基准（7,111查询-摘要对/2,934表格）",
+    "提出REFACTOR框架通过6种模板化推理操作生成显式表格事实以提升生成忠实度",
+    "系统评估文本生成/表格到文本/大语言模型三类基线并揭示自动化指标与人工评价的显著脱节现象"
+   ],
+   "benchmarks": [
+    "QTSUMM"
+   ]
+  }
+ }
 }

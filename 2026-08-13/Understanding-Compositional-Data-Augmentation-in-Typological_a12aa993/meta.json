@@ -4,5 +4,32 @@
  "title": "Understanding-Compositional-Data-Augmentation-in-Typological",
  "token": "sk-Jd4ujJMnj...",
  "created_at": "2026-08-13 14:54:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6fbd2dfc-a0a6-4517-b90d-387662b82588.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/6fbd2dfc-a0a6-4517-b90d-387662b82588.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:34:10",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "compositional data augmentation",
+    "morphological inflection",
+    "STEMCORRUPT",
+    "sample efficiency",
+    "information theory",
+    "typological diversity",
+    "low-resource NLP",
+    "spurious correlation"
+   ],
+   "field": "形态学屈折变化与组合泛化",
+   "innovations": [
+    "首次从信息论角度证明 STEMCORRUPT 通过消除词干-词缀间互信息来提升组合泛化",
+    "提出 UMT+LOSS 混合采样策略，在多样性与不确定性联合条件下显著提升样本效率",
+    "揭示 STEMCORRUPT 对含元音和谐黏着语的负面效应及其机理"
+   ],
+   "benchmarks": [
+    "SIGMORPHON 2018",
+    "UniMorph 4.0"
+   ]
+  }
+ }
 }

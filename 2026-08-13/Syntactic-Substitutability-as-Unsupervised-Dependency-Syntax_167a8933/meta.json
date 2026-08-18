@@ -4,5 +4,32 @@
  "title": "Syntactic-Substitutability-as-Unsupervised-Dependency-Syntax",
  "token": "sk-JMLCbBCEj...",
  "created_at": "2026-08-13 14:56:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c68960ea-bf4b-4d90-af86-822b43e4df28.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/c68960ea-bf4b-4d90-af86-822b43e4df28.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:32:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "无监督依存解析",
+    "句法可替换性",
+    "LLM 可解释性",
+    "注意力分布",
+    "最大生成树",
+    "BERT",
+    "Universal Dependencies"
+   ],
+   "field": "计算句法学与 NLP 可解释性",
+   "innovations": [
+    "提出 SSUD 方法，通过句法可替换性约束从 BERT 注意力分布中无监督诱导依存树",
+    "证明使用替换句集合的平均注意力可显著提升解析精度，尤其在长距离主谓一致构式上召回率达 79.5%",
+    "发现诱导树更贴合 SUD 标注体系而非 UD，揭示模型内部表征与标注形式的系统性差异"
+   ],
+   "benchmarks": [
+    "WSJ10",
+    "EN-PUD",
+    "Marvin & Linzen 主谓一致数据集"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Towards-LLM-driven-Dialogue-State-Tracking",
  "token": "sk-twhrLv2pG...",
  "created_at": "2026-08-13 14:54:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e89b8108-5e51-471c-a745-0a8a23ae6b9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/e89b8108-5e51-471c-a745-0a8a23ae6b9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:33:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dialogue State Tracking",
+    "Large Language Models",
+    "Instruction Tuning",
+    "Parameter-Efficient Fine-Tuning",
+    "LoRA",
+    "Task-Oriented Dialogue"
+   ],
+   "field": "任务导向对话系统",
+   "innovations": [
+    "首次系统评估ChatGPT在多域DST任务上的性能并揭示其优势与局限",
+    "提出基于小型开源模型的LDST框架，通过组装域槽指令微调实现与ChatGPT相当的性能",
+    "设计参数高效微调方案（LoRA），仅训练0.12%参数即取得显著性能提升"
+   ],
+   "benchmarks": [
+    "SGD",
+    "MultiWOZ 2.2",
+    "MultiWOZ 2.4"
+   ]
+  }
+ }
 }

@@ -4,5 +4,34 @@
  "title": "Self-Influence-Guided-Data-Reweighting-for-Language-Model-Pr",
  "token": "sk-FMTQpgZxg...",
  "created_at": "2026-08-13 14:56:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4550aa4a-03aa-429d-afc9-f0faafc07481.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/4550aa4a-03aa-429d-afc9-f0faafc07481.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:30:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "language model pre-training",
+    "data reweighting",
+    "self-influence",
+    "TracIn",
+    "multilingual pre-training",
+    "XTREME"
+   ],
+   "field": "语言模型预训练与数据选择",
+   "innovations": [
+    "首次将自影响力SI分数应用于无标签预训练数据重加权",
+    "提出两阶段在线微批次重加权策略（先直接后逆加权）",
+    "证明SI分数可有效识别预训练数据中的噪声和域不匹配样本"
+   ],
+   "benchmarks": [
+    "XTREME",
+    "XQuAD",
+    "MLQA",
+    "TyDi QA",
+    "XNLI",
+    "WikiAnn NER"
+   ]
+  }
+ }
 }

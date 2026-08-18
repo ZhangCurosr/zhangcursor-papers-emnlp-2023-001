@@ -4,5 +4,37 @@
  "title": "Transcending-Scaling-Laws-with-0-1-Extra-Compute",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-08-13 14:55:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/577fb6e1-75db-4129-96f4-7de4f834f15b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/577fb6e1-75db-4129-96f4-7de4f834f15b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:34:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "scaling laws",
+    "continued training",
+    "UL2",
+    "mixture-of-denoisers",
+    "emergent abilities",
+    "infilling",
+    "PrefixLM",
+    "U-PaLM"
+   ],
+   "field": "大语言模型预训练与缩放",
+   "innovations": [
+    "提出 UL2R 方法，以 0.1% 额外计算显著改善大模型缩放曲线",
+    "在 540B 规模实现约 2x 计算效率提升，节省 440 万 TPUv4 小时",
+    "通过目标多样性在更小规模（62B/8B）上激发 BIG-Bench 涌现能力"
+   ],
+   "benchmarks": [
+    "BIG-Bench Emergent Suite",
+    "MMLU",
+    "SuperGLUE",
+    "TydiQA",
+    "GSM8K",
+    "MGSM",
+    "BBH"
+   ]
+  }
+ }
 }

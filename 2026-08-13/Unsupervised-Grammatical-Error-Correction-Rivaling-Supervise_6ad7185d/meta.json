@@ -4,5 +4,32 @@
  "title": "Unsupervised-Grammatical-Error-Correction-Rivaling-Supervise",
  "token": "sk-zw57yHIgm...",
  "created_at": "2026-08-13 14:55:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a59ed8fa-dfcd-4079-9186-9ca6fe2882ee.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a59ed8fa-dfcd-4079-9186-9ca6fe2882ee.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:34:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Grammatical Error Correction",
+    "Unsupervised Learning",
+    "Break-It-Fix-It",
+    "Synthetic Data Generation",
+    "Self-training",
+    "Low-resource NLP"
+   ],
+   "field": "无监督语法错误纠正",
+   "innovations": [
+    "基于MLM和语言无关错误模式的无监督合成数据生成方法，摆脱对confusion sets的依赖",
+    "利用fixer高置信度预测构建critic并结合SKD与掩码增强的自训练架构"
+   ],
+   "benchmarks": [
+    "CoNLL-2014",
+    "BEA-2019",
+    "NLPCC-2018",
+    "Falko-MERLIN",
+    "RULEC-GEC"
+   ]
+  }
+ }
 }

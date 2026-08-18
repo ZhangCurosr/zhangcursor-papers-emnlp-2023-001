@@ -4,5 +4,31 @@
  "title": "Towards-Noise-Tolerant-Speech-Referring-Video-Object-Segment",
  "token": "sk-5WOIsMt5v...",
  "created_at": "2026-08-13 14:56:22",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7e9f72fc-80e9-4899-8618-67021a870bec.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7e9f72fc-80e9-4899-8618-67021a870bec.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:33:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Referring Video Object Segmentation",
+    "Speech-Visual Grounding",
+    "Noise-Tolerant Representation",
+    "Cross-Modal Alignment",
+    "Audio-Guided Video Understanding"
+   ],
+   "field": "多模态视频理解",
+   "innovations": [
+    "提出 STBridge 框架实现冻结 R-VOS 模型的语音输入适配",
+    "设计 NSA 与 SJS 模块分别实现噪声自适应语义提取和抖动抑制",
+    "在 AVOS 基准上建立含噪语音参考分割新 SOTA"
+   ],
+   "benchmarks": [
+    "AVOS",
+    "Ref-YoutubeVOS",
+    "A2D-sentences",
+    "JHMDB-sentences"
+   ]
+  }
+ }
 }

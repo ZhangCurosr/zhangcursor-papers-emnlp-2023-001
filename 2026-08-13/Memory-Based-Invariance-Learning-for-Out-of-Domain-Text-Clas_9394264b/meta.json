@@ -4,5 +4,33 @@
  "title": "Memory-Based-Invariance-Learning-for-Out-of-Domain-Text-Clas",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f791b09-a8c5-4fc1-9525-13550806867f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7f791b09-a8c5-4fc1-9525-13550806867f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:28:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "领域泛化",
+    "文本分类",
+    "不变性学习",
+    "记忆网络",
+    "元学习",
+    "双优化"
+   ],
+   "field": "领域泛化与自然语言处理",
+   "innovations": [
+    "首次将可训练 key-value 记忆网络引入文本领域泛化的不变表征学习",
+    "提出基于 episode 的元学习训练策略模拟域偏移并设计双层优化目标联合学习记忆与不变性"
+   ],
+   "benchmarks": [
+    "Amazon Reviews",
+    "MNLI",
+    "IMDB",
+    "SST-2",
+    "SNLI",
+    "SICK"
+   ]
+  }
+ }
 }

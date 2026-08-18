@@ -4,5 +4,29 @@
  "title": "S2abEL-A-Dataset-for-Entity-Linking-from-Scientific-Tables",
  "token": "sk-Zs9k8BxOo...",
  "created_at": "2026-08-13 14:55:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ca30afe8-0a61-47b4-9dca-5b6657bcd096.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/ca30afe8-0a61-47b4-9dca-5b6657bcd096.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:30:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Entity Linking",
+    "Scientific Tables",
+    "Knowledge Base Completion",
+    "Out-of-KB Detection",
+    "Information Extraction"
+   ],
+   "field": "科学文献信息抽取",
+   "innovations": [
+    "首个科学论文表格实体链接数据集 S2abEL，显式建模 outKB 提及",
+    "提出基于归因源检索（ASR）与密集检索（DR）融合的候选实体生成策略",
+    "将文档全文上下文与引文关系整合入表格实体消歧，显著超越通用表格基线 TURL"
+   ],
+   "benchmarks": [
+    "S2abEL",
+    "Papers with Code"
+   ]
+  }
+ }
 }

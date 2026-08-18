@@ -4,5 +4,30 @@
  "title": "TEMPTABQA-Temporal-Question-Answering-for-Semi-Structured-Ta",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-08-13 14:56:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7b45175d-e403-4593-bbdc-0b0986bb8018.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/7b45175d-e403-4593-bbdc-0b0986bb8018.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:31:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "时间问答",
+    "半结构化表格",
+    "Wikipedia Infobox",
+    "大语言模型",
+    "链式思维",
+    "head-tail 泛化"
+   ],
+   "field": "表格推理与时间问答",
+   "innovations": [
+    "首个半结构化表格时间问答基准 TEMPTABQA，覆盖 90+ 领域 11,454 QA 对",
+    "建立 Head/Tail 领域划分评估稀有领域泛化能力",
+    "多维度细粒度误差分析框架（问题类型/推理操作/显式隐式/实体类型/领域）"
+   ],
+   "benchmarks": [
+    "TEMPTABQA Head Test",
+    "TEMPTABQA Tail Test"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "SeqXGPT-Sentence-Level-AI-Generated-Text-Detection",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-08-13 14:54:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d7e08044-7aee-4624-aa20-1c0400eaa211.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/d7e08044-7aee-4624-aa20-1c0400eaa211.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:30:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI-generated text detection",
+    "sentence-level detection",
+    "large language model",
+    "perplexity",
+    "sequence labeling",
+    "white-box detection",
+    "out-of-distribution generalization"
+   ],
+   "field": "AI生成文本检测",
+   "innovations": [
+    "首次定义句子级AIGT检测任务并构建混合人类/AI句子的SeqXGPT-Bench基准",
+    "将白盒LLM词级log概率列表建模为时域波形特征，设计CNN+Transformer编码器进行序列标注",
+    "系统性证明文档级方法无法直接迁移至句子级，且序列标注策略可同时胜任两级检测"
+   ],
+   "benchmarks": [
+    "SeqXGPT-Bench",
+    "Document-Level AIGT Detection Dataset",
+    "OOD Sentence-Level Detection Dataset (TriviaQA-based)"
+   ]
+  }
+ }
 }

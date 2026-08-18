@@ -4,5 +4,30 @@
  "title": "The-Shifted-and-The-Overlooked-A-Task-oriented-Investigation",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-08-13 14:56:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1cb9fdf8-7252-49d9-82e5-f3a77f9f970e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/1cb9fdf8-7252-49d9-82e5-f3a77f9f970e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:32:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "User-GPT Interaction",
+    "Task Distribution Analysis",
+    "ShareGPT",
+    "NLP Benchmark Gap",
+    "Long-tail Tasks",
+    "LLM Evaluation"
+   ],
+   "field": "NLP任务分析与用户行为研究",
+   "innovations": [
+    "提出三阶段自演示GPT-4自动标注流水线，实现94k用户查询的领域与任务类型大规模标注",
+    "首次系统量化用户查询与传统NLP benchmark在领域分布和任务类型上的结构性偏移",
+    "识别并刻画6类被主流benchmark忽视的新型开放任务（建议/设计/规划/讨论/分析/评估）及LLM失败模式"
+   ],
+   "benchmarks": [
+    "ShareGPT",
+    "Huggingface Datasets (2,911 filtered)"
+   ]
+  }
+ }
 }

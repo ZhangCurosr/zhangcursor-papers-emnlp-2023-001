@@ -4,5 +4,10 @@
  "title": "Theory-of-Mind-for-Multi-Agent-Collaboration-via-Large-Langu",
  "token": "sk-DXHHyylpH...",
  "created_at": "2026-08-13 14:54:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8fcd3a00-ec91-4922-bfd6-f5c972d51922.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/8fcd3a00-ec91-4922-bfd6-f5c972d51922.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:33:30",
+  "chunks": 1
+ }
 }

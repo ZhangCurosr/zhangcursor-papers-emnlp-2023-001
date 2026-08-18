@@ -4,5 +4,33 @@
  "title": "Increasing-Coverage-and-Precision-of-Textual-Information-in",
  "token": "sk-jX4FaQZVZ...",
  "created_at": "2026-08-13 07:11:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f93c9cff-ce15-4014-958a-fb6b41676ac7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/f93c9cff-ce15-4014-958a-fb6b41676ac7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:29:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "知识图谱增强",
+    "多语言NLP",
+    "实体链接",
+    "知识图谱补全",
+    "大语言模型",
+    "机器翻译",
+    "网页搜索"
+   ],
+   "field": "多语言知识图谱",
+   "innovations": [
+    "提出KGE任务，联合提升多语言知识图谱文本信息的覆盖率与精确度",
+    "构建WikiKGE-10首个10语言多语言KGE人工标注基准",
+    "提出M-NTA无监督多源融合方法，整合MT/WS/LLM互补知识"
+   ],
+   "benchmarks": [
+    "WikiKGE-10",
+    "Wikinews-7",
+    "DBP-5L",
+    "MKQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Selectively-Answering-Ambiguous-Questions",
  "token": "sk-F7cBp1IrI...",
  "created_at": "2026-08-13 14:54:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/399849a3-34b8-437b-8a0c-e675c81c8511.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/399849a3-34b8-437b-8a0c-e675c81c8511.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:30:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "confidence calibration",
+    "selective question answering",
+    "ambiguous questions",
+    "sampling-based uncertainty",
+    "denotational uncertainty",
+    "language model reliability"
+   ],
+   "field": "大语言模型校准与选择性生成",
+   "innovations": [
+    "提出语义/认知不确定性区分与消歧-回答范式",
+    "基于采样重复与多样性的置信度度量方法",
+    "证实采样方法在歧义问题和指令微调模型上的校准优势"
+   ],
+   "benchmarks": [
+    "Natural Questions",
+    "TriviaQA",
+    "AmbigQA",
+    "SituatedQA"
+   ]
+  }
+ }
 }

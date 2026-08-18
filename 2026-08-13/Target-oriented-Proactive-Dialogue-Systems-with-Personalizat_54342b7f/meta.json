@@ -4,5 +4,34 @@
  "title": "Target-oriented-Proactive-Dialogue-Systems-with-Personalizat",
  "token": "sk-9ieZJEGxv...",
  "created_at": "2026-08-13 14:54:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7d1a837-c527-47b9-87dc-67a97f8e142d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a7d1a837-c527-47b9-87dc-67a97f8e142d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:32:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "目标导向对话",
+    "主动对话系统",
+    "个性化对话",
+    "数据集构建",
+    "大语言模型",
+    "角色扮演",
+    "推荐对话"
+   ],
+   "field": "对话系统与推荐对话",
+   "innovations": [
+    "首次形式化定义个性化目标导向主动对话任务，将<对话行为,主题>对与用户画像/个性结合",
+    "提出基于多LLM智能体角色扮演的自动数据集构建框架，实现低成本的个性化目标导向对话数据合成",
+    "构建TOPDIAL数据集，首个同时具备目标导向性、画像grounding和个性grounding的大规模多轮对话数据集"
+   ],
+   "benchmarks": [
+    "TOPDIAL",
+    "DuRecDial 2.0",
+    "OTTers",
+    "TGC",
+    "TGConv"
+   ]
+  }
+ }
 }

@@ -4,5 +4,40 @@
  "title": "Towards-Example-Based-NMT-with-Multi-Levenshtein-Transformer",
  "token": "sk-Ir4JqYCnj...",
  "created_at": "2026-08-13 14:56:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3a9e1d4-9878-44e8-92b8-369863bb1bd7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/a3a9e1d4-9878-44e8-92b8-369863bb1bd7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:33:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器翻译",
+    "检索增强翻译",
+    "Levenshtein Transformer",
+    "翻译记忆",
+    "非自回归翻译",
+    "多序列对齐",
+    "模仿学习"
+   ],
+   "field": "机器翻译",
+   "innovations": [
+    "提出TM^N-LevT架构，同时编辑多条TM模糊匹配并合并",
+    "设计基于target coverage最大化的N路对齐启发式算法",
+    "扩展模仿学习roll-in policy以应对多序列编辑的暴露偏差"
+   ],
+   "benchmarks": [
+    "ECB",
+    "EMEA",
+    "Europarl",
+    "GNOME",
+    "JRC-Acquis",
+    "KDE4",
+    "News-Commentary",
+    "PHP",
+    "TED2013",
+    "Ubuntu",
+    "Wikipedia"
+   ]
+  }
+ }
 }

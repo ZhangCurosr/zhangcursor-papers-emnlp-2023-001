@@ -4,5 +4,36 @@
  "title": "Improving-Summarization-with-Human-Edits",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-08-13 07:12:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/84e85390-1ac8-4447-ad7f-08cffe4ca957.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/84e85390-1ac8-4447-ad7f-08cffe4ca957.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:29:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Human Edits",
+    "SALT",
+    "Unlikelihood Training",
+    "序列对齐",
+    "灾难性遗忘",
+    "临床笔记生成",
+    "RLHF"
+   ],
+   "field": "文本摘要与人类反馈学习",
+   "innovations": [
+    "提出SALT框架，通过序列对齐联合likelihood和unlikelihood损失利用Human Edits训练摘要模型",
+    "提出Imitation Edits概念，利用已有Ground Truth模拟编辑数据以降低数据成本",
+    "提出RSALT，结合Replay机制有效缓解在增量编辑数据上训练时的灾难性遗忘"
+   ],
+   "benchmarks": [
+    "CC (Clinician Conversations)",
+    "CCUser",
+    "CNN/Daily Mail",
+    "XSum",
+    "ROUGE",
+    "UMLS-F1",
+    "SAGE"
+   ]
+  }
+ }
 }

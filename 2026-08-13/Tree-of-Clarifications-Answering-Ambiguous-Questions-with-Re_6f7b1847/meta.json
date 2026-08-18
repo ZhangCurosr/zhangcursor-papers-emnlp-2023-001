@@ -4,5 +4,28 @@
  "title": "Tree-of-Clarifications-Answering-Ambiguous-Questions-with-Re",
  "token": "sk-JqniBRrr0...",
  "created_at": "2026-08-13 14:54:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b357d0b1-aff6-494c-baf7-479863b4ff24.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/b357d0b1-aff6-494c-baf7-479863b4ff24.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:33:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "歧义问答",
+    "检索增强生成",
+    "大语言模型",
+    "Few-shot 提示",
+    "树状推理"
+   ],
+   "field": "开放域问答",
+   "innovations": [
+    "递归树结构探索歧义多维解释",
+    "检索增强与自验证剪枝结合的澄清框架",
+    "少样本设置下超越全监督基线的长文本生成"
+   ],
+   "benchmarks": [
+    "ASQA"
+   ]
+  }
+ }
 }

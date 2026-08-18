@@ -4,5 +4,34 @@
  "title": "Pushdown-Layers-Encoding-Recursive-Structure-in-Transformer",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-08-13 14:55:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/810e5013-6760-4dea-8b51-86618924fa3f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/810e5013-6760-4dea-8b51-86618924fa3f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:30:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Pushdown Layers",
+    "Transformer",
+    "Syntactic Generalization",
+    "Recursive Structure",
+    "Language Modeling",
+    "Stack Memory",
+    "Inductive Bias"
+   ],
+   "field": "句法结构与神经语言模型",
+   "innovations": [
+    "提出 Pushdown Layers，用可微分的栈带（stack tape）显式建模 token 深度，将 shift/reduce 过程融入自注意力",
+    "通过深度嵌入对注意力得分进行软性加法调制，学习隐式句法结构偏置",
+    "证明该方法可大幅提升 Transformer 语言模型在递归结构和句法泛化上的样本效率，且能直接替代标准自注意力层"
+   ],
+   "benchmarks": [
+    "BLiMP",
+    "SG Test Suites",
+    "DYCK Languages",
+    "WIKITREES",
+    "GLUE (RTE, SST5, MRPC, STS-B)"
+   ]
+  }
+ }
 }

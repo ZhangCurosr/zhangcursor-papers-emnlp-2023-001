@@ -4,5 +4,29 @@
  "title": "Three-Stream-Based-Multi-level-Event-Contrastive-Learning-fo",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-08-13 14:56:20",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/06763fa3-7a73-4a2e-a118-1997c1af7f3c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-08-13/06763fa3-7a73-4a2e-a118-1997c1af7f3c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-08-18 17:33:14",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态事件提取",
+    "光流特征",
+    "对比学习",
+    "文本-视频融合",
+    "跨模态对齐"
+   ],
+   "field": "多模态信息抽取",
+   "innovations": [
+    "首次将光流特征引入文本-视频事件提取任务",
+    "提出多级事件对比学习模块对齐运动特征与事件语义",
+    "设计双查询文本模块实现细粒度跨模态交互"
+   ],
+   "benchmarks": [
+    "TVEE",
+    "VM2E2"
+   ]
+  }
+ }
 }
